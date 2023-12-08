@@ -26,4 +26,4 @@ References and Acknowledgements:2023-12-08,1d
 
 ![screenshot of kanban](kanban.png)
 
-Screenshot of the kanban while the project was in progress.
+Screenshot of the kanban while the project was in progress
