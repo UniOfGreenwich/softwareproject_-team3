@@ -21,3 +21,9 @@ Create Kanban:2023-12-07,1d
 Create Authors List:2023-12-08,1d
 References and Acknowledgements:2023-12-08,1d
 ```
+
+## Kanban
+
+![screenshot of kanban](kanban.png)
+
+Screenshot of the kanban while the project was in progress.
