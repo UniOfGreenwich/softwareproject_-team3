@@ -1,3 +1,4 @@
+
 ## Risks and risk management
 ### 1. Data Vulnerability
 - Data can be easily accessed, changed, or stolen if there are weak security measures in place which doesn’t allert us while the usage. 
@@ -80,6 +81,3 @@ It follows a successive idealistic methodology where each stage is finished prio
 
 ### 9. User requirements definition 
 The basic needs of the user to work on a software system which helps them to give the expected output.  
-
-
- 
