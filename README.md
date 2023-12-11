@@ -14,7 +14,7 @@
    - [Glossary](#Glossary)
    - [User Requirements defination](#User-Requirements-defination)
    - [Authors](#Authors)
-   - [Gantt chart](#Gantt)
+   - [Gantt Chart](#Gantt-Chart)
    - [kanban](#kanban)
    - [References and Acknowledgements](#references-and-acknowledgements)
 
