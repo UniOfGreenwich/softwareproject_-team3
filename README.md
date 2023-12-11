@@ -17,7 +17,8 @@ Risks and Risk Planning:2023-12-1,5d
 System Requirements:2023-12-4,3d
 Create Kanban:2023-12-07,1d
 Create Authors List:2023-12-08,1d
-References and Acknowledgements:2023-12-08,1d
+References and Acknowledgements:a4,2023-12-08,1d
+Finalise and Merge,after a4,2d
 ```
 
 ## Kanban
