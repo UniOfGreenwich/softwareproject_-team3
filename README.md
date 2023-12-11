@@ -1,5 +1,5 @@
 
-## Risks and risk management
+## Risks and Risk management
 ### 1. Data Vulnerability
 - Data can be easily accessed, changed, or stolen if there are weak security measures in place which doesn’t allert us while the usage. 
 
