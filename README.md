@@ -10,7 +10,7 @@
     - [Phases of Incremental Models](#phases-of-incremental-models)
     - [Using an Incremental Model](#using-an-incremental-model)
     - [Justification For Model Choice](#justification-for-model-choice)
-   - [Risk and Risk Management](#Risk and Risk Management)
+   - [Risks and Risk Management](#Risks)
    - [Glossary](#Glossary)
    - [User Requirements defination](#User Requirements defination)
    - [Authors](#Authors)
@@ -223,7 +223,7 @@ In conclusion, while the incremental model offers benefits such as early deliver
 
 
 
-## Risks and risk management
+## Risks and Risk management
 ### 1. Data Vulnerability
 - Data can be easily accessed, changed, or stolen if there are weak security measures in place which doesn’t allert us while the usage. 
 
