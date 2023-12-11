@@ -12,7 +12,7 @@
     - [Justification For Model Choice](#justification-for-model-choice)
    - [Risk and Risk Management](#Risk and Risk Management)
    - [Glossary](#Glossary)
-   - [User Requirementsdefination](#User Requirementsdefination)
+   - [User Requirements defination](#User Requirements defination)
    - [Authors](#Authors)
    - [Gantt chart](#Gantt)
    - [kanban](#kanban)
