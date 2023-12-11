@@ -1,6 +1,9 @@
 # Phase 1 - Requirements Engineering
 
 ## Gantt Chart
+
+The gantt chart is used to aid with the timings of what should be done, and when. This shows the dates of each section graphically, showing how each of the individual elements relate to eachother.
+
 ```mermaid
 gantt
 title Software Engineering Project
@@ -22,7 +25,7 @@ System Requirements:2023-12-4,3d
 Create Kanban:2023-12-07,1d
 Create Authors List:2023-12-08,1d
 References and Acknowledgements:a4,2023-12-08,1d
-Finalise Project and Merge:after a4,1d
+Finalise Project and Merge to Phase/1 branch:after a4,1d
 ```
 
 ## Kanban
