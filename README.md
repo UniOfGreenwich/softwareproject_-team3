@@ -222,7 +222,8 @@ The Incremental Model is a suitable choice for developing a library system due t
 In conclusion, while the incremental model offers benefits such as early delivery, user feedback, and flexibility, it requires careful planning and management to mitigate itspotential drawbacks. The suitability of this model depends on the specific characteristics and requirements of the software development project.
 
 
-## Risks and Risk management
+
+## Risks and risk management
 ### 1. Data Vulnerability
 - Data can be easily accessed, changed, or stolen if there are weak security measures in place which doesn’t allert us while the usage. 
 
@@ -270,8 +271,35 @@ Scheduling regular training programs and teaching them to use the recourses and 
   
 - Risk Management : In order to reduce the possibility of scope creep, clearly identify the project goals and scope from the outset. Retain regular lines of communication with interested parties to quickly address any additions or modifications to the criteria. To guarantee effective administration and control, track and document every change.
 
-
 ## Glossary 
+### 1. Agile model 
+Agile is a methedology of project management and software  development that focuses on iteration. This approach allows teams to deliver value to customers in a faster and more efficient manner. Instead of depending on a single large launch, an agile team focuses on delivering smaller, easily digestible increments of work. (Rahul Arun, simpli learn blog, 2 November 2023)
+
+### 2. DevOps model 
+DevOps overcomes any issues between programming improvement and activities. This approach cultivates cooperative energy among improvement and tasks groups, empowering a cooperative and shared liability culture. It is a computer programming strategy that means to flawlessly incorporate the endeavors of the two groups.
+
+### 3.  Gantt chart 
+It is a chart that is commonly used for the project management which contains a time scale and the list of activities, it is used for noting down the time period and allocating the tasks. 
+
+### 4. Incremental model:
+This model is a course of programming improvement where the requirements  are separated into various independent modules of programming improvement cycle. It is finished in strides from examination plan, execution, testing/confirmation, support. ( Matthew Martin, 28 October 2023 @Guru99)
+
+### 5. Kanban
+It is a popular frame work that helps us to work for implementing agile and many other software which allows us to work on it at any time. 
+
+
+### 6.Software Process Model 
+  
+It’s the methodology of dividing the software development work into the distinct phase in order to improve the design, product and project management.  This defines tasks which is to be performed, the input, output and the processing of each task, the conditions of the task and the sequence of the task. 
+  
+### 7. System requirements
+ System requirements are the functional and non-functional specifications that a software system must meet to satisfy its customers' needs that includes the design, the development, and the testing of the system. 
+
+### 8. Waterfall Model :
+It follows a successive idealistic methodology where each stage is finished prior in order to move to the next one for doing in a large and difficult projects.It has an organized and formalized process however needs adaptability and versatility to changes. 
+
+### 9. User requirements definition 
+The basic needs of the user to work on a software system which helps them to give the expected output.  
 
 ### 1.  Gantt chart 
 It is a chart that is commonly used for the project management which contains a time scale and the list of activities, it is used for noting down the time period and allocating the tasks. 
@@ -344,3 +372,4 @@ Screenshot of the kanban while the project was in progress
     U.S. Department of Commerce Wilbur L. Ross, Jr., Secretary. [Online] Available at: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf 
 
 10. Incremental Model. [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
+
