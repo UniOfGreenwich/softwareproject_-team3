@@ -317,7 +317,18 @@ It’s the methodology of dividing the software development work into the distin
 
 ### 5. User requirements definition 
 The basic needs of the user to work on a software system which helps them to give the expected output.  
+Functional Requirements for Staff Users:
 
+1.	Students can view their own account information within the library system.
+2.	Students can see their own account balance.
+3.	Students can pay their own balance within the library system.
+
+Non-Functional Requirements for Staff and Student Users: 
+1.	The system has a complete guide for students on how to borrow books and pay the overdue fees.
+2.	The system displays clear and informative prompts for deleting books to prevent data erasing and accidental deletions.
+3.	The system maintains data privacy and security, prevent bugs, ensures the confidentiality of user information, including balances and payments. 
+4.	The system has user-friendly and secure functionality for checking out books and processing payments.
+5.	The system has a contact number for students interacting directly with staff for any help.
 
 ## Gantt Chart
 ```mermaid
@@ -369,7 +380,8 @@ Screenshot of the kanban while the project was in progress
 
 9. Security Breaches
 
-    U.S. Department of Commerce Wilbur L. Ross, Jr., Secretary. [Online] Available at: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf 
+   U.S. Department of Commerce Wilbur L. Ross, Jr., Secretary. [Online] Available at: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf 
 
 10. Incremental Model. [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
+
 
