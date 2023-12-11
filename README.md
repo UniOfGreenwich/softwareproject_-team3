@@ -34,13 +34,11 @@ Functional Requirements for Student Users:
 1.	Students can view their own account information within the library system.
 2.	Students can see their own account balance.
 3.	Students can pay their own balance within the library system.
-4.	Students can loan laptops for 3 days, 7 days and 14 days.
 
 Non-Functional Requirements for Staff and Student Users: 
-1.	The system provides two factor authentication service to ensure secure authentication and authorisation for all users.
-2.	The system has a complete guide for students on how to loan a laptop, how to buy books, borrow books etc.
-3.	The system displays clear and informative prompts for deleting books to prevent data erasing and accidental deletions.
-4.	The system maintains data privacy and security, prevent bugs, ensures the confidentiality of user information, including balances and payments. 
-5.	The system has user-friendly and secure functionality for checking out books and processing payments.
-6.	The system has a contact number and live chat option for students interacting directly with staff for any help.
+1.	The system has a complete guide for students on how to borrow books and pay the overdue fees.
+2.	The system displays clear and informative prompts for deleting books to prevent data erasing and accidental deletions.
+3.	The system maintains data privacy and security, prevent bugs, ensures the confidentiality of user information, including balances and payments. 
+4.	The system has user-friendly and secure functionality for checking out books and processing payments.
+5.	The system has a contact number for students interacting directly with staff for any help.
 
