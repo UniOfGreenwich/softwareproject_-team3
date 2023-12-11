@@ -70,7 +70,7 @@ It’s the methodology of dividing the software development work into the distin
 ### 5. User requirements definition 
 The basic needs of the user to work on a software system which helps them to give the expected output.  
 
-=======
+
 ## Gantt Chart
 ```mermaid
 gantt
