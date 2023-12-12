@@ -325,7 +325,20 @@ Screenshot of the kanban while the project was in progress
 8. Inadequate User Training: Reference. Ilia Sotnikov ,Published: August 2, 2018. [Online] Available at: https://blog.netwrix.com/2018/08/02/how-to-create-an-effective-information-security-risk-management-program 
 9. Security Breaches: Reference. U.S. Department of Commerce Wilbur L. Ross, Jr., Secretary. [Online] Available at: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf 
 10. Incremental Model: [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
-    
+
+## Authors
+
+**wheissmd**
+<br>
+**flock-of-jays**
+<br>
+**maishkhan**
+<br>
+**reshmaa2005**
+<br>
+**SanjiGre99**
+<br>
+
 ## Appendix
 **Gantt Chart**
 The gantt chart is used to aid with the timings of what should be done, and when. This shows the dates of each section graphically, showing how each of the individual elements relate to eachother. This is primarily used for planning purposes, showing how the overall project should go if the the members want it to go efficiently.
