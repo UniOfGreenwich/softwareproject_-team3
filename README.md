@@ -10,15 +10,15 @@
     - [Phases of Incremental Models](#phases-of-incremental-models)
     - [Using an Incremental Model](#using-an-incremental-model)
     - [Justification For Model Choice](#justification-for-model-choice)
-    - [Glossary](#Glossary)
-    - [User Requirements Definitions](#User-Requirements-Definitions)
-   - [System Requirements and Specifications](#System-Requirements-and-Specifications)
-   - [Risks and Risk Planning](#Risks-and-Risk-Planning)
-   - [References and Acknowledgements](#references-and-acknowledgements)
-   - [Appendix](#Appendix)
+  - [Glossary](#Glossary)
+  - [User Requirements Definitions](#User-Requirements-Definitions)
+  - [System Requirements and Specifications](#System-Requirements-and-Specifications)
+  - [Risks and Risk Planning](#Risks-and-Risk-Planning)
+  - [References and Acknowledgements](#references-and-acknowledgements)
+  - [Appendix](#Appendix)
      -[Gantt Chart](#Gantt-Chart)
-   - [kanban](#kanban)
-   - [Authors](#Authors)
+  - [kanban](#kanban)
+  - [Authors](#Authors)
    
 
 ## Table
