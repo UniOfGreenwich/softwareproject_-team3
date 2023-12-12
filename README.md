@@ -326,7 +326,7 @@ Screenshot of the kanban while the project was in progress
 10. Incremental Model: [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
     
 ## Appendix
-## Gantt Chart
+**Gantt Chart**
 ```mermaid
 gantt
 title Phase One
