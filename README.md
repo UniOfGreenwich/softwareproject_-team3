@@ -283,7 +283,7 @@ It’s the methodology of dividing the software development work into the distin
 **8. Waterfall Model:**
 It follows a successive idealistic methodology where each stage is finished prior in order to move to the next one for doing in a large and difficult projects.It has an organized and formalized process however needs adaptability and versatility to changes. 
 
-**9. User requirements definition:**
+**9. User requirement definition:**
 The basic needs of the user to work on a software system which helps them to give the expected output.  
 
 **10.  Gantt chart:**
