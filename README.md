@@ -13,11 +13,11 @@
    - [Risks and Risk Planning](#Risks-and-Risk-Planning)
    - [Glossary](#Glossary)
    - [User Requirements Definitions](#User-Requirements-Definitions)
-   - [Authors](#Authors)
    - [kanban](#kanban)
    - [References and Acknowledgements](#references-and-acknowledgements)
+   - [Authors](#Authors)
    - [Appendix](#Appendix)
-      -[Gantt Chart](#Gantt-Chart)
+     -[Gantt Chart](#Gantt-Chart)
 
 ## Table
 | Name | Assignment |
@@ -306,13 +306,14 @@ Non-Functional Requirements for Staff and Student Users:
 3.	The system maintains data privacy and security, prevent bugs, ensures the confidentiality of user information, including balances and payments. 
 4.	The system has user-friendly and secure functionality for checking out books and processing payments.
 5.	The system has a contact number for students interacting directly with staff for any help.
-
-
+    
 ## Kanban
 
-![screenshot of kanban](kanban.png)
+The kanban is used as a method of aiding the visualisation of the current events taking place. This is usually a visual method, splitting tasks between three parts: the 'to do' section, the 'in progress' section, and the 'done' or 'completed' sections.
 
-Screenshot of the kanban while the project was in progress
+The 'to do' section is the backlog; this part shows the tasks that are yet to be done. This can be used by the team to help decide how when to do each task and who is to do it. The 'in progress' section displays which section is currently being worked on and who is working on it. The final 'completed' section shows which tasks have been finished and by who.
+
+![screenshot of kanban](kanban.png)
 
 ## References and Acknowledgements
 1. Software process model.[Online] Available at:  https://www.educative.io/blog/software-process-model-types
@@ -325,7 +326,14 @@ Screenshot of the kanban while the project was in progress
 8. Inadequate User Training: Reference. Ilia Sotnikov ,Published: August 2, 2018. [Online] Available at: https://blog.netwrix.com/2018/08/02/how-to-create-an-effective-information-security-risk-management-program 
 9. Security Breaches: Reference. U.S. Department of Commerce Wilbur L. Ross, Jr., Secretary. [Online] Available at: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf 
 10. Incremental Model: [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
-    
+
+## Authors
+*wheissmd
+*flock-of-jays
+*maishkhan
+*reshmaa2005
+*SanjiGre99
+
 ## Appendix
 **Gantt Chart**
 The gantt chart is used to aid with the timings of what should be done, and when. This shows the dates of each section graphically, showing how each of the individual elements relate to eachother. This is primarily used for planning purposes, showing how the overall project should go if the the members want it to go efficiently.
@@ -353,11 +361,3 @@ Create Authors List:2023-12-08,1d
 References and Acknowledgements:a4,2023-12-08,1d
 Finalise Project and Merge to Phase/1 branch:after a4,1d
 ```
-
-## Kanban
-
-The kanban is used as a method of aiding the visualisation of the current events taking place. This is usually a visual method, splitting tasks between three parts: the 'to do' section, the 'in progress' section, and the 'done' or 'completed' sections.
-
-The 'to do' section is the backlog; this part shows the tasks that are yet to be done. This can be used by the team to help decide how when to do each task and who is to do it. The 'in progress' section displays which section is currently being worked on and who is working on it. The final 'completed' section shows which tasks have been finished and by who.
-
-![screenshot of kanban](kanban.png)
