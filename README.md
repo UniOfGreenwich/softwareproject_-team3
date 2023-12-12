@@ -4,7 +4,7 @@
 - [Phase 1 - Requirements Engineering](#phase-1---requirements-engineering)
   - [Contents](#contents)
   - [Table](#table)
-  - [Introduction](#Introduction)
+  - [Introduction](#Introduction) 
   - [Software Process Model](#software-process-model)
     - [What is an Incremental Model](#what-is-an-incremental-model)
     - [Phases of Incremental Models](#phases-of-incremental-models)
@@ -310,7 +310,7 @@ Scheduling regular training programs and teaching them to use the recourses and 
 - Risk Management : In order to reduce the possibility of scope creep, clearly identify the project goals and scope from the outset. Retain regular lines of communication with interested parties to quickly address any additions or modifications to the criteria. To guarantee effective administration and control, track and document every change.
 
 ## References and Acknowledgements
-1. Software process model.[Online] Available at:  https://www.educative.io/blog/software-process-model-types
+1. Sulemani, M. (2021). What is a Software Process Model? Top 7 models explained. [online] Educative: Interactive Courses for Software Developers. Available at: https://www.educative.io/blog/software-process-model-types.
 2. User requirements. [Online] Available at: https://cds.cern.ch/record/383258/files/p123.pdf  
 3. System requirements. [Online] Available at: https://www.tutorialspoint.com/software_engineering/software_requirements.htm
 4. Kanban. [Online] Available at: https://www.atlassian.com/agile/kanban 
@@ -322,7 +322,7 @@ Scheduling regular training programs and teaching them to use the recourses and 
 10. Incremental Model: [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
 
 ## Appendix
-**Gantt Chart**
+**Gantt Chart:**
 The gantt chart is used to aid with the timings of what should be done, and when. This shows the dates of each section graphically, showing how each of the individual elements relate to eachother. This is primarily used for planning purposes, showing how the overall project should go if the the members want it to go efficiently.
 
 ```mermaid
