@@ -330,9 +330,9 @@ The 'to do' section is the backlog; this part shows the tasks that are yet to be
 ## Authors
 
 **wheissmd**
-
+<br>
 **flock-of-jays**
-
+<br>
 **maishkhan**
 
 **reshmaa2005**
