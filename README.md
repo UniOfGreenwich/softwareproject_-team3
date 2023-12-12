@@ -334,10 +334,11 @@ The 'to do' section is the backlog; this part shows the tasks that are yet to be
 **flock-of-jays**
 <br>
 **maishkhan**
-
+<br>
 **reshmaa2005**
-
+<br>
 **SanjiGre99**
+<br>
 
 ## Appendix
 **Gantt Chart**
