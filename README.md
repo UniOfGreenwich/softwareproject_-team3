@@ -33,18 +33,17 @@
 
 ## Introduction
 
-A library system that needs to be capable of managing the users is required. Users need to be able to check out the books from the available stock and pay the over-due fees if they have them. Staff needs to be able to create and delete the users with a confirmaion prompt when removing a user and edit the list of available books. The IDs representing each user should be formated and stored in a specific way, that is described in "System Requirements and Specifications" section. Using IDs as a reference staff members should be able to access the full information about the user including their fullname, current books they hold, their unpaid over-due and history of their book borrowing.
+A library system that needs to be capable of managing the users is required. Users need to be able to check out the books from the available stock and pay the over-due fees if they have them. Staff needs to be able to create and delete the users with a confirmation prompt when removing a user and edit the list of available books. The IDs representing each user should be formatted and stored in a specific way, that is described in "System Requirements and Specifications" section. Using IDs as a reference staff members should be able to access the full information about the user including their full name, current books they hold, their unpaid over-due and history of their book borrowing.
 
-The over-due fees should be capped at the borrowed books value and setted manually by staff and should increase by 10p every day of the book over-due date.
+The over-due fees should be capped at the borrowed books value and settled manually by staff and should increase by 10p every day of the book over-due date.
 
-The major aspect of the system is security. Since users are expected to share their billing deails with the system it should focus on providing the data protection and the data leakage should not be possible. In order to achieve that special security measures, including protected authentification system, firewalls, constant bugfix update development must be in use. Deep description of the security measures can be found in "Risk Management" section.
+The major aspect of the system is security. Since users are expected to share their billing details with the system it should focus on providing the data protection and the data leakage should not be possible. In order to achieve that special security measures, including protected authentication system, firewalls, constant bugfix update development must be in use. Deep description of the security measures can be found in "Risk Management" section.
 
-The development strategy of the project is described by the chosen incremental development model. The reasons for this choice are described in the "Software Proces Model" section. Kanban was used to track the progress and assing people to solving the particular issues, the Kanban screenshot can be found in the "Kanban" section. 
+The development strategy of the project is described by the chosen incremental development model. The reasons for this choice are described in the "Software Process Model" section. Kanban was used to track the progress and assign people to solving the particular issues, the Kanban screenshot can be found in the "Kanban" section. 
 
 ## Software Process Model
 
 A software proce­ss model is like a map. It shows the ste­ps to create software. Some­ steps happen one afte­r another, while others happe­n at the same time. This happe­ns during the software deve­lopment life cycle (SDLC). The­ software process model is your guide­. It helps plan, organize, and manage the­ creation of an information system.
-
 
 **1. Waterfall Model**
 
@@ -53,45 +52,45 @@ A software proce­ss model is like a map. It shows the ste­ps to create softwar
   
 **2. Agile Model**
 
-* Emphasixes Fleibility, collaboration, and customer feedback.
-* Incorporates risk assessment and adjusts the process as needed based on feedback and evalutio.
+* Emphasises Flexibility, collaboration, and customer feedback.
+* Incorporates risk assessment and adjusts the process as needed based on feedback and evolution.
 
 **3. Incremental Model**
 
-* Breaks the system into small, maangeable parts or increments. 
-* Each increment represents a portion of the system's funtionality and is developed separately.
+* Breaks the system into small, manageable parts or increments. 
+* Each increment represents a portion of the system's functionality and is developed separately.
 
 **4. DevOps Model**
 
 * Integrates development and operations to improve collaboration and productivity.
 * Aims to automate the software delivery process and enhance communication between development and operations teams.
 
-The choice of a software process model depends on various factors, including project requirments, organizational goals, and the nature of the software being developed. Different models have theirstrengths and weaknesses, and organizations may choose or tailor a model based on their specific needs and constraints. For this projects we have chosen the incremental model for the Library System.
+The choice of a software process model depends on various factors, including project requirements, organizational goals, and the nature of the software being developed. Different models have their strengths and weaknesses, and organizations may choose or tailor a model based on their specific needs and constraints. For this project we have chosen the incremental model for the Library System.
 
 ### What is an Incremental Model 
 
-The incremental model is a software paradigm for growth for big and complicated systems. It is built on the concept of adding new features, or increments, to an existing system rather than starting from scratch. The incremental model divides or breaks down software requirements into multiple stand-alone modules or increments in the SDLC (Softwre development life cycle). Once the moduloes have been partitioned, incremental development is carried out in steps, comprising all analysis, design, implementation, necessary testing or varification, and maintenance. The functionality of each stage is built on the fuctionality of the preceding stage, and this process is repeated until the software is complete. The incremental model requires the development team to complete each incremental build as rapidly as feasible. The objects is to gradually offer a product. Regular releases are part of the process, with each release reflecting an increase in functionality and quality.
+The incremental model is a software paradigm for growth for big and complicated systems. It is built on the concept of adding new features, or increments, to an existing system rather than starting from scratch. The incremental model divides or breaks down software requirements into multiple stand-alone modules or increments in the SDLC (Software development life cycle). Once the modules have been partitioned, incremental development is carried out in steps, comprising all analysis, design, implementation, necessary testing or verification, and maintenance. The functionality of each stage is built on the functionality of the preceding stage, and this process is repeated until the software is complete. The incremental model requires the development team to complete each incremental build as rapidly as feasible. The objects is to gradually offer a product. Regular releases are part of the process, with each release reflecting an increase in functionality and quality.
 
 ![Figure of Incremental model](https://lh6.googleusercontent.com/ymTiT6ebNQFPbGxIRYioFD1SwBOw7S_NrBfkLloBmhEO5vvx4m_GiskiT5jEYAs7NeMHB2hlVPFz3K00L1xwWtxE3n_ThWS2dT6tU-TEr_WTkk58dC-3HBgceJXjGgEC4NYqpglu-bYAXvME7lt-hpc)
 
 ### Phases of Incremental Models 
 
-The phases of incremental models in the (SDLC) typically follow a pattern where the development process is divided into smaller increments or modules. each increment goes through a set of common phases. While the specific names of the phases may very slightly based on the model and methodology being used, a general representation includes the following phases: 
+The phases of incremental models in the (SDLC) typically follow a pattern where the development process is divided into smaller increments or modules. each increment goes through a set of common phases. While the specific names of the phases may very slightly be based on the model and methodology being used, a general representation includes the following phases: 
 
 ***1. Planning:***
   
   * Define the overall project scope, objectives, and requirements.
-  * identify the increments or modules that will be deveoped.
+  * identify the increments or modules that will be developed.
   * Plan the Schedule and resources for each increment.
 
 ***2. Requirements Analysis:***
 
-* Gather and analyze the requirement for the specific increment.
-*  Define the features and fuctionality that will be implemented in the current phase.
+* Gather and analyse the requirement for the specific increment.
+*  Define the features and functionality that will be implemented in the current phase.
 
 ***3. Design:***
 
-* Create a high-level design for the entire system, focusing on the features to be implemenred in the current increment.
+* Create a high-level design for the entire system, focusing on the features to be implemented in the current increment.
 * Break down the design into smaller components or modules.
 
 ***4. Implementation:***
@@ -107,24 +106,24 @@ The phases of incremental models in the (SDLC) typically follow a pattern where 
 ***6. Integration:***
 
 * Integration the current increment with previously developed increments.
-* Varify that the integrated system functions as expected and that there are no conflicts between increments.
+* Verify that the integrated system functions as expected and that there are no conflicts between increments.
 
 ***7. Deployment:***
 
-* Release the current increment to end-users or stakeholders for evalution.
+* Release the current increment to end-users or stakeholders for evolution.
 * Gather feedback on the implemented features.
 
-***8. Feedback and Evalution:***
+***8. Feedback and Evolution:***
 
-* Collect feedack from users and stakeholders.
-* Evalute the success of the implemented features.
+* Collect feedback from users and stakeholders.
+* Evaluate the success of the implemented features.
 * Use feedback to make improvements and adjustments for the next increment.
 
-These phases may vary in terminology or specific activities depending on the chosen incremental model. Additionally, some incremental models may incorperate a feedback loop where each increment informs the planning and development of subsequent increments. The key is that the development process is broken down into manageable parts, allowing for flexibility, early deliveries, and adaptation to changing requirements.
+These phases may vary in terminology or specific activities depending on the chosen incremental model. Additionally, some incremental models may incorporate a feedback loop where each increment informs the planning and development of subsequent increments. The key is that the development process is broken down into manageable parts, allowing for flexibility, early deliveries, and adaptation to changing requirements.
 
 ### Using an Incremental Model
 
-The incremental Model in software development offers several benifits that contribute to a more flexible and adaptive approach to building software. Some of the additional of using an incremental model include:
+The incremental Model in software development offers several benefits that contribute to a more flexible and adaptive approach to building software. Some of the additional of using an incremental model include:
 
 **1. Reduced Risk of Project Failure:**
 
@@ -134,11 +133,11 @@ The incremental Model in software development offers several benifits that contr
 **2. Higher Visibility and Control**
 
 * Projects progress is more visible and measurable with the completion of each increment.
-* This provides betetr control over the development process and allows for early iddentification and resolution of issues.
+* This provides better control over the development process and allows for early identification and resolution of issues.
 
 **3. Easier Integration and testing:**
 
-* Incremental development simplifies integration and testing since eacfh increment is a funtional subset of the complete system.
+* Incremental development simplifies integration and testing since each increment is a functional subset of the complete system.
 * Integration and testing efforts are distributed over time rather than being concentrated at the end of the development process.
 
 **4. Better Resource Allocation:**
@@ -149,28 +148,29 @@ The incremental Model in software development offers several benifits that contr
 **5. Enhance Team Collaboration:**
 
 * Communication and coordination are streamlined, promoting a collaborative development environment.
-* Teans can collaborate more effectively as they work on smaller, well-defined tasks.
+* Teams can collaborate more effectively as they work on smaller, well-defined tasks.
 
 **Pros of Incremental Model:**
 
 1. Frequent User Feedback: Continuous feedback from users allows for the refinement of requirements and ensures that the final product aligns with user expectations.
 2. Early Delivery of Partial Functionality: Users get to see and use of the system early in the development process, providing tangible benefits sooner
-3. Higher Stakeholder Confidence: Regular delivery of increments builds stakeholder confidence as they see continuous progress and have oppurtunities to provide input.
-4. Meeting Goals: Once the requirements are mapped out, all software goalsnand objectives can be sarisfied completely through incremental development.
+3. Higher Stakeholder Confidence: Regular delivery of increments builds stakeholder confidence as they see continuous progress and have opportunities to provide input.
+4. Meeting Goals: Once the requirements are mapped out, all software goals and objectives can be satisfied completely through incremental development.
 
 **Cons of Incremental Model:**
 
 1. **Potential for Overlapping Features:** Without proper planning, there may be a risk of overlapping features between increments, leading to redundancy.
 2. **Complexity in tracking:** Tracking and managing the progress of multiple increments can become complex, especially in large projects.
-3. **Mangement Overhead:** Managing multiple increments may increase projects management overhead, requiring careful planning and coordination.
-4. **Possibility for Incomplete Suystem Integration:** If not managed properly, there is a risk of incomplete system integration, leading to issues when integrating all increments.
-  
+3. **Management Overhead:** Managing multiple increments may increase projects management overhead, requiring careful planning and coordination.
+4. **Possibility for Incomplete System Integration:** If not managed properly, there is a risk of incomplete system integration, leading to issues when integrating all increments.
+![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332593/84542254-0bfc-4149-a848-f86deadd5e8d)
 
 ### Justification For Model Choice
 
-The Incremental Model is a suitable choice for developing a library system due to its ability to involve users early in the development process and gather continuous feedback. Libraries often have diverse user needs, and incremental development allows for the phase implementation of various modules, such as cataloging, circulation, and user management. This approach aligns well with the evolving requirements of libraries, providing flexibility to adapt to changing technologies and services. Additionally, the model aids in risk management by accuracy and reliability of data in a library system. For libraries with critical operational features, the Incremental model allows for a faster time-to-market, enalbling the use of essential funtionalities without waiting for the entire system to be completed. Resource optimization is facilitated by allocating resources based on feature priority, and the model support smoother intregation with existing systems. The incremental approach also allows for phased training and adoption, easing the transition for library staff and users. Effective project management and communication are essential for the successful implementation of the incremental model in the development of a library system.
+The Incremental Model is a suitable choice for developing a library system due to its ability to involve users early in the development process and gather continuous feedback. Libraries often have diverse user needs, and incremental development allows for the phase implementation of various modules, such as cataloguing, circulation, and user management. This approach aligns well with the evolving requirements of libraries, providing flexibility to adapt to changing technologies and services. Additionally, the model aids in risk management by accuracy and reliability of data in a library system. For libraries with critical operational features, the Incremental model allows for a faster time-to-market, enabling the use of essential functionalities without waiting for the entire system to be completed. Resource optimization is facilitated by allocating resources based on feature priority, and the model support smoother integration with existing systems. The incremental approach also allows for phased training and adoption, easing the transition for library staff and users. Effective project management and communication are essential for the successful implementation of the incremental model in the development of a library system.
 
-In conclusion, while the incremental model offers benefits such as early delivery, user feedback, and flexibility, it requires careful planning and management to mitigate itspotential drawbacks. The suitability of this model depends on the specific characteristics and requirements of the software development project.
+In conclusion, while the incremental model offers benefits such as early delivery, user feedback, and flexibility, it requires careful planning and management to mitigate its potential drawbacks. The suitability of this model depends on the specific characteristics and requirements of the software development project.
+![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332593/a030a00e-89ec-4277-b5ba-cb48a2c8120d)
 
 ## Glossary 
 **1. Agile model:**
