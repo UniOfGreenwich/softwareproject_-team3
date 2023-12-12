@@ -12,7 +12,7 @@
     - [Justification For Model Choice](#justification-for-model-choice)
    - [Risks and Risk Planning](#Risks-and-Risk-Planning)
    - [Glossary](#Glossary)
-   - [User Requirements Definition](#User-Requirements-Definition)
+   - [User Requirements Definitions](#User-Requirements-Definitions)
    - [Authors](#Authors)
    - [kanban](#kanban)
    - [References and Acknowledgements](#references-and-acknowledgements)
@@ -292,7 +292,7 @@ It is a chart that is commonly used for the project management which contains a 
 **11. Kanban:**
 It is a popular frame work that helps us to work for implementing agile and many other software which allows us to work on it at any time. 
 
-## 5. User Requirements Definition 
+## 5. User Requirements Definitions 
 The basic needs of the user to work on a software system which helps them to give the expected output. 
 
 Functional Requirements for Staff Users:
