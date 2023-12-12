@@ -10,7 +10,7 @@
     - [Phases of Incremental Models](#phases-of-incremental-models)
     - [Using an Incremental Model](#using-an-incremental-model)
     - [Justification For Model Choice](#justification-for-model-choice)
-   - [Risks and Risk Management](#Risks-and-Risk-Management)
+   - [Risks and Risk Planning](#Risks-and-Risk-Planning)
    - [Glossary](#Glossary)
    - [User Requirements defination](#User-Requirements-defination)
    - [Authors](#Authors)
@@ -222,7 +222,7 @@ The Incremental Model is a suitable choice for developing a library system due t
 
 In conclusion, while the incremental model offers benefits such as early delivery, user feedback, and flexibility, it requires careful planning and management to mitigate itspotential drawbacks. The suitability of this model depends on the specific characteristics and requirements of the software development project.
 
-## Risks and Risk management
+## Risks and Risk Planning
 
 ### 1. Data Vulnerability
 - Data can be easily accessed, changed, or stolen if there are weak security measures in place which doesn’t allert us while the usage. 
@@ -306,6 +306,7 @@ Non-Functional Requirements for Staff and Student Users:
 3.	The system maintains data privacy and security, prevent bugs, ensures the confidentiality of user information, including balances and payments. 
 4.	The system has user-friendly and secure functionality for checking out books and processing payments.
 5.	The system has a contact number for students interacting directly with staff for any help.
+
 
 ## Kanban
 
