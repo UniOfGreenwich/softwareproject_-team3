@@ -131,6 +131,18 @@ It’s the methodology of dividing the software development work into the distin
 ### 5. User requirements definition 
 The basic needs of the user to work on a software system which helps them to give the expected output.  
 
+## Authors
+
+**wheissmd**
+<br>
+**flock-of-jays**
+<br>
+**maishkhan**
+<br>
+**reshmaa2005**
+<br>
+**SanjiGre99**
+<br>
 
 ## Gantt Chart
 ```mermaid
