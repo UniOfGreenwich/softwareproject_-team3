@@ -14,9 +14,10 @@
    - [Glossary](#Glossary)
    - [User Requirements defination](#User-Requirements-defination)
    - [Authors](#Authors)
-   - [Gantt Chart](#Gantt-Chart)
    - [kanban](#kanban)
    - [References and Acknowledgements](#references-and-acknowledgements)
+   - [Appendix](#Appendix)
+     -[Gantt Chart](#Gantt-Chart)
 
 ## Table
 | Name | Assignment |
@@ -221,23 +222,19 @@ The Incremental Model is a suitable choice for developing a library system due t
 
 In conclusion, while the incremental model offers benefits such as early delivery, user feedback, and flexibility, it requires careful planning and management to mitigate itspotential drawbacks. The suitability of this model depends on the specific characteristics and requirements of the software development project.
 
-
-
 ## Risks and Risk management
+
 ### 1. Data Vulnerability
 - Data can be easily accessed, changed, or stolen if there are weak security measures in place which doesn’t allert us while the usage. 
-
 - Risk Management: Improving the security method by installing strong data encryption methods, authorised access controls, frequent data back up, and conduct vulnerability assessments in order to find and address any potential vulnerabilities. 
 (National Institute of Standards and Technology, 2017). Computer Security Resource Center).
 
 ### 2. System Malfunction
 - There is a risk of system failure or malfunction because of the software bugs, viruses, hardware disfunction, or compatibility issues.
-
 - Risk Management: Running a full analysis, testing and quality assurance processes to identify and fix any software or hardware issues. Frequent update and maintenance of the system components to ensure the optimal system performance. 
 (Gary Stoneburner, Alice Goguen, and Alexis Feringa  ,Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930, July 2002)
 ### 3. Inadequate User Training
 - Clients may not be enough prepared to utilize the library framework, prompting blunders, information misfortune, or security breaks.
-
 - Risk Management: 
 Scheduling regular training programs and teaching them to use the recourses and supports. Must ensure their skills and knowledge about the system so that there will be no more issues in the future. Giving them chance to explain and getting feedback from the users and providing the essential upgraded tasks to skill them up (Ilia Sotnikov ,Published: August 2, 2018).
 ### 4. Integration Challenges
@@ -250,7 +247,6 @@ Scheduling regular training programs and teaching them to use the recourses and 
 - There is a risk of unauthorized access, hacking, or malware attacks on the library system and its associated networks.
 - Risk Management: Carry out far reaching safety efforts like firewalls, interruption recognition frameworks, and antivirus programming. Consistently update security fixes and guarantee that all product and frameworks are modern. Lay out episode reaction plans and lead ordinary security reviews. 
 (U.S. Department of Commerce Wilbur L. Ross, Jr., Secretary)
-
 
 ### 6.  Hardware Glitch 
 - This hazard alludes to the chance of the actual parts of the library framework (like servers, PCs, or organization hardware) neglecting to work appropriately, bringing about framework free time and potential information misfortune.
