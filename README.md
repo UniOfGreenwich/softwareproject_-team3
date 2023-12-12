@@ -315,30 +315,17 @@ Screenshot of the kanban while the project was in progress
 
 ## References and Acknowledgements
 1. Software process model.[Online] Available at:  https://www.educative.io/blog/software-process-model-types
-
-
 2. User requirements. [Online] Available at: https://cds.cern.ch/record/383258/files/p123.pdf  
-
 3. System requirements. [Online] Available at: https://www.tutorialspoint.com/software_engineering/software_requirements.htm
-
 4. Kanban. [Online] Available at: https://www.atlassian.com/agile/kanban 
-
 5. Defination of Gantt chart. [Online] Available at: https://www.gantt.com/
 6. Gantt Chart. [Online] Available at: https://mermaid.js.org/syntax/gantt.html
-7. System Malfunction: 
-   
-   (Reference: Gary Stoneburner, Alice Goguen, and Alexis Feringa, Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930, July 2002, Reference: [Online] Available at: https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/administrative/securityrule/nist800-30.pdf )  
-
-8. Inadequate User Training: 
-   
-   Reference:  Ilia Sotnikov ,Published: August 2, 2018. [Online] Available at: https://blog.netwrix.com/2018/08/02/how-to-create-an-effective-information-security-risk-management-program 
-
-9. Security Breaches
-
-   U.S. Department of Commerce Wilbur L. Ross, Jr., Secretary. [Online] Available at: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf 
-
-10. Incremental Model. [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
-
+7. System Malfunction: (Reference: Gary Stoneburner, Alice Goguen, and Alexis Feringa, Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930, July 2002, Reference: [Online] Available at: https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/administrative/securityrule/nist800-30.pdf )  
+8. Inadequate User Training: Reference. Ilia Sotnikov ,Published: August 2, 2018. [Online] Available at: https://blog.netwrix.com/2018/08/02/how-to-create-an-effective-information-security-risk-management-program 
+9. Security Breaches: Reference. U.S. Department of Commerce Wilbur L. Ross, Jr., Secretary. [Online] Available at: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf 
+10. Incremental Model: [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
+    
+## Appendix
 ## Gantt Chart
 ```mermaid
 gantt
@@ -360,4 +347,3 @@ Create Kanban:2023-12-07,1d
 Create Authors List:2023-12-08,1d
 References and Acknowledgements:2023-12-08,1d
 ```
-## Appendix
