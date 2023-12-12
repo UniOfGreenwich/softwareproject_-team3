@@ -163,7 +163,6 @@ The incremental Model in software development offers several benefits that contr
 2. **Complexity in tracking:** Tracking and managing the progress of multiple increments can become complex, especially in large projects.
 3. **Management Overhead:** Managing multiple increments may increase projects management overhead, requiring careful planning and coordination.
 4. **Possibility for Incomplete System Integration:** If not managed properly, there is a risk of incomplete system integration, leading to issues when integrating all increments.
-![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332593/84542254-0bfc-4149-a848-f86deadd5e8d)
 
 ### Justification For Model Choice
 
