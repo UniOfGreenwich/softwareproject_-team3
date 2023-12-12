@@ -328,10 +328,15 @@ The 'to do' section is the backlog; this part shows the tasks that are yet to be
 10. Incremental Model: [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
 
 ## Authors
+
 **wheissmd**
+
 **flock-of-jays**
+
 **maishkhan**
+
 **reshmaa2005**
+
 **SanjiGre99**
 
 ## Appendix
