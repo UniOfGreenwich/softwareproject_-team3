@@ -330,6 +330,19 @@ Non-Functional Requirements for Staff and Student Users:
 4.	The system has user-friendly and secure functionality for checking out books and processing payments.
 5.	The system has a contact number for students interacting directly with staff for any help.
 
+## Authors
+
+**wheissmd**
+<br>
+**flock-of-jays**
+<br>
+**maishkhan**
+<br>
+**reshmaa2005**
+<br>
+**SanjiGre99**
+<br>
+
 ## Gantt Chart
 ```mermaid
 gantt
