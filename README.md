@@ -43,7 +43,8 @@ The development strategy of the project is described by the chosen incremental d
 
 ## Software Process Model
 
-A software process model is a structured representation of the software development process. It describes the sequential and parallel activities that take place throughout the software development life cycle (SDLC). The process model serves as a roadmap for planning, stucturing, and controlling the process of developing an information system.
+A software proce­ss model is like a map. It shows the ste­ps to create software. Some­ steps happen one afte­r another, while others happe­n at the same time. This happe­ns during the software deve­lopment life cycle (SDLC). The­ software process model is your guide­. It helps plan, organize, and manage the­ creation of an information system.
+
 
 **1. Waterfall Model**
 
@@ -69,15 +70,13 @@ The choice of a software process model depends on various factors, including pro
 
 ### What is an Incremental Model 
 
-The incremental model is a software paradigm for growth for big and complicated systems. It is built on the concept of adding new features, or increments, to an existing system rather than starting from scratch. The incremental model divides or breaks down software requirements into multiple stand-alone modules or increments in the SDLC (Softwre development life cycle). Once the moduloes have been partitioned, incremental development is carried out in steps, comprising all analysis, design, implementation, necessary testing or varification, and maintenance. The functionality of each stage is built on the fuctionality of the preceding stage, and this process is repeated until the software is complete.
-
-The incremental model requires the development team to complete each incremental build as rapidly as feasible. The objects is to gradually offer a ductional product. Regular releases are part of the process, with each release reflecting an increase in functionality and quality.
+The incremental model is a software paradigm for growth for big and complicated systems. It is built on the concept of adding new features, or increments, to an existing system rather than starting from scratch. The incremental model divides or breaks down software requirements into multiple stand-alone modules or increments in the SDLC (Softwre development life cycle). Once the moduloes have been partitioned, incremental development is carried out in steps, comprising all analysis, design, implementation, necessary testing or varification, and maintenance. The functionality of each stage is built on the fuctionality of the preceding stage, and this process is repeated until the software is complete. The incremental model requires the development team to complete each incremental build as rapidly as feasible. The objects is to gradually offer a product. Regular releases are part of the process, with each release reflecting an increase in functionality and quality.
 
 ![Figure of Incremental model](https://lh6.googleusercontent.com/ymTiT6ebNQFPbGxIRYioFD1SwBOw7S_NrBfkLloBmhEO5vvx4m_GiskiT5jEYAs7NeMHB2hlVPFz3K00L1xwWtxE3n_ThWS2dT6tU-TEr_WTkk58dC-3HBgceJXjGgEC4NYqpglu-bYAXvME7lt-hpc)
 
 ### Phases of Incremental Models 
 
-The phases of incremental models in the (SDLC) typically follow a pattern where the development processe is divided into smaller increments or modules. each increment goes through a set of common phases. While the specific names of the phases may very slightly based on the model and methodology being used, a general representation includes the following phases: 
+The phases of incremental models in the (SDLC) typically follow a pattern where the development process is divided into smaller increments or modules. each increment goes through a set of common phases. While the specific names of the phases may very slightly based on the model and methodology being used, a general representation includes the following phases: 
 
 ***1. Planning:***
   
@@ -175,7 +174,7 @@ In conclusion, while the incremental model offers benefits such as early deliver
 
 ## Glossary 
 **1. Agile model:**
-Agile is a methedology of project management and software  development that focuses on iteration. This approach allows teams to deliver value to customers in a faster and more efficient manner. Instead of depending on a single large launch, an agile team focuses on delivering smaller, easily digestible increments of work. (Rahul Arun, simpli learn blog, 2 November 2023)
+Agile is a methodology of project management and software  development that focuses on iteration. This approach allows teams to deliver value to customers in a faster and more efficient manner. Instead of depending on a single large launch, an agile team focuses on delivering smaller, easily digestible increments of work. (Rahul Arun, simpli learn blog, 2 November 2023)
 
 **2. DevOps model:**
 DevOps overcomes any issues between programming improvement and activities. This approach cultivates cooperative energy among improvement and tasks groups, empowering a cooperative and shared liability culture. It is a computer programming strategy that means to flawlessly incorporate the endeavors of the two groups.
@@ -311,15 +310,16 @@ Scheduling regular training programs and teaching them to use the recourses and 
 
 ## References and Acknowledgements
 1. Sulemani, M. (2021). What is a Software Process Model? Top 7 models explained. [online] Educative: Interactive Courses for Software Developers. Available at: https://www.educative.io/blog/software-process-model-types.
-2. User requirements. [Online] Available at: https://cds.cern.ch/record/383258/files/p123.pdf  
-3. System requirements. [Online] Available at: https://www.tutorialspoint.com/software_engineering/software_requirements.htm
-4. Kanban. [Online] Available at: https://www.atlassian.com/agile/kanban 
-5. Defination of Gantt chart. [Online] Available at: https://www.gantt.com/
-6. Gantt Chart. [Online] Available at: https://mermaid.js.org/syntax/gantt.html
-7. System Malfunction: (Reference: Gary Stoneburner, Alice Goguen, and Alexis Feringa, Computer Security Division Information Technology Laboratory National Institute of Standards and Technology Gaithersburg, MD 20899-8930, July 2002, Reference: [Online] Available at: https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/administrative/securityrule/nist800-30.pdf )  
-8. Inadequate User Training: Reference. Ilia Sotnikov ,Published: August 2, 2018. [Online] Available at: https://blog.netwrix.com/2018/08/02/how-to-create-an-effective-information-security-risk-management-program 
-9. Security Breaches: Reference. U.S. Department of Commerce Wilbur L. Ross, Jr., Secretary. [Online] Available at: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf 
-10. Incremental Model: [Online] Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an,scope%2C%20objectives%2C%20and%20constraints.
+2. Gottfried, K., Cern, Geneva and Switzerland (n.d.). USER REQUIREMENTS. [online] Available at: https://cds.cern.ch/record/383258/files/p123.pdf. 
+3. tutorialspoint (2019). Software Requirements - Tutorialspoint. [online] Tutorialspoint.com. Available at: https://www.tutorialspoint.com/software_engineering/software_requirements.htm.
+4. Radigan, D. (2022). What is kanban? [online] Atlassian. Available at: https://www.atlassian.com/agile/kanban. 
+5. Duke, R. (2019). What is a Gantt Chart? Gantt Chart Software, Information, and History. [online] Gantt.com. Available at: https://www.gantt.com/.
+6. Gantt Chart. [Online] Available at: https://mermaid.js.org/syntax/gantt.htmlmermaid.js.org. (n.d.). Gantt diagrams | Mermaid. [online] Available at: https://mermaid.js.org/syntax/gantt.html [Accessed 12 Dec. 2023].
+7. Stoneburner, G., Goguen, A. and Feringa, A. (2022). Risk Management Guide for Information Technology Systems Recommendations of the National Institute of Standards and Technology. [online] Available at: https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/administrative/securityrule/nist800-30.pdf. 
+8. [Inadequate User Training: Reference. Ilia Sotnikov ,Published: August 2, 2018. [Online] Available at: https://blog.netwrix.com/2018/08/02/how-to-create-an-effective-information-security-risk-management-program ](https://blog.netwrix.com/. (n.d.). How to build an effective information security risk management program. [online] Available at: https://blog.netwrix.com/2018/08/02/how-to-create-an-effective-information-security-risk-management-program [Accessed 12 Dec. 2023].
+9. National Institute of Standards and Technology (2018). Risk management framework for information systems and organizations: Risk Management Framework for Information Systems and Organizations, [online] 2. doi:https://doi.org/10.6028/nist.sp.800-37r2.
+10. Santamaria, O. (2023). Incremental Model: What It Is and How to Implement It. [online] Plutora. Available at: https://www.plutora.com/blog/incremental-model-what-and-how-to-implement-it#:~:text=The%20incremental%20model%20is%20an.
+11. University of Greenwich. (n.d.). 2020/2021 | About the university. [online] Available at: https://www.gre.ac.uk/about-us/governance/planningandstatistics/key-facts/20202021.
 
 ## Appendix
 **Gantt Chart:**
