@@ -1,4 +1,6 @@
-# ELEE1149-Project-Template
+## Sequence Diagram
+
+## Gantt Chart
 
 ```mermaid
 gantt
@@ -11,8 +13,8 @@ Phase 3:after phase2,36d
 
 section Phase 1 tasks
 Find Team:a1,2023-11-16,7d
-Allocate tasks:a2,2023-11-23,1d
-Create Task Allocation Table:after a2,1d
+Allocate tasks:2023-11-23,1d
+Create Task Allocation Table:2023-11-24,1d
 Write Introduction:a3,2023-11-24,3d
 Outline Software Process Model:after a3,7d
 User Requirements:2023-11-29,5d
