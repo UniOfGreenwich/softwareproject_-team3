@@ -1,5 +1,19 @@
 ## Sequence Diagram
 
+```mermaid
+sequenceDiagram
+actor User
+User->>+Authentication Server: request access
+activate Authentication Server
+Authentication Server->>-User: return login page
+User->>+Authentication Server: input details
+alt authorisation success
+Authentication Server->>-User: display correct credentials message and allow sign in
+else authorisation failure
+Authentication Server->>-User: return message incorrect credentials and do not continue
+end
+```
+
 ## Gantt Chart
 
 ```mermaid
