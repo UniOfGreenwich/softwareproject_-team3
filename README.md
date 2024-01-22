@@ -9,6 +9,7 @@
   - [Appendix](#appendix)
 - [Use Case diagram](#use-case-diagram-1)
   - [References and Acknowledgements](#references-and-acknowledgements)
+
 ## Introduction
 The System Modelling and design Phase is an important step in the software development life cycle since it is at this stage that the conceptualised system beings to take shape through comprehensive modelling and design activities.. The goal is to produce a blueprint that will guide the development team in the systems implementation. This report provides a full summary as the modelling and design tasks completed as well as a set of important diagrams that are critical in representing and communicating the systems structure and operation.
 
