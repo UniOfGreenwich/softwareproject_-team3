@@ -13,6 +13,7 @@ User->>+Account:connect to account
 activate Account
 Account->>+DataBase:request connection to database
 DataBase->>-Account:return account information
+Account->>-User:display information about account
 else authorisation failure
 Login Authentication->>-User: return message incorrect credentials and do not continue
 end
