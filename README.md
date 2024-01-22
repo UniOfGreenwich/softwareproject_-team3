@@ -115,8 +115,3 @@ Use case diagrams are useful for collecting and visualising a system needs from 
 ## References and Acknowledgements
 1. PlantUML.com. (n.d.). Use case Diagram syntax and features. [online] Available at: https://plantuml.com/use-case-diagram.
 2. creately.com. (n.d.). Library Management System | Creately. [online] Available at: https://creately.com/diagram/example/hszw2rmn7/library-management-system.
-   
-
-‌
-
-‌
