@@ -7,7 +7,11 @@
   - [Use Case Diagram](#use-case-diagram)
   - [Table Discriptions](#table-discriptions)
   - [Appendix](#appendix)
-- [Use Case diagram](#use-case-diagram-1)
+    - [Use Case diagram](#use-case-diagram-1)
+    - [Sequence Diagram](#Sequence-diagram)
+    - [Class Diagram](#Class-diagram)
+    - [Activity Diagram](#Activity-diagram)
+    - [State Chart Diagram](#State-Chart-diagram)
   - [References and Acknowledgements](#references-and-acknowledgements)
 
 ## Introduction
