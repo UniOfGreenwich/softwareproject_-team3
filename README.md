@@ -25,7 +25,7 @@ end
 
 ## Gantt Chart
 
-A gantt chart displaying the initially planned sequence of events that should take place.
+A gantt chart displaying the initially planned sequence of events that should take place. The chart itself has been pulled from the phase one branch and updated to also display the activities for phase two.
 
 ```mermaid
 gantt
