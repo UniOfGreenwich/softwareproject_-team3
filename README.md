@@ -3,14 +3,18 @@
 ```mermaid
 sequenceDiagram
 actor User
-User->>+Authentication Server: request access
-activate Authentication Server
-Authentication Server->>-User: return login page
-User->>+Authentication Server: input details
+User->>+Login Authentication: request access
+activate Login Authentication
+Login Authentication->>-User: return login page
+User->>+Login Authentication: input details
 alt authorisation success
-Authentication Server->>-User: display correct credentials message and allow sign in
+Login Authentication->>-User: display correct credentials message and allow sign in
+User->>+Account:connect to account
+activate Account
+Account->>+DataBase:request connection to database
+DataBase->>-Account:return account information
 else authorisation failure
-Authentication Server->>-User: return message incorrect credentials and do not continue
+Login Authentication->>-User: return message incorrect credentials and do not continue
 end
 ```
 
