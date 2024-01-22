@@ -18,6 +18,8 @@ activate Account
 Account->>+DataBase:request connection to database
 DataBase->>-Account:return account information
 Account->>-User:display information about account
+User->>+Login Authentication:send logout request
+Login Authentication->>-User:sign out the user from their account
 else authorisation failure
 Login Authentication->>-User: return message incorrect credentials and do not continue
 end
