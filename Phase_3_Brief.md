@@ -1,6 +1,6 @@
 # Phase 3 - Implementation and Testing
 
-**Submission Deadline: 19th March 2024**
+**Submission Deadline: 03rd April 2024 @2000**
 
 **Submission Guidance**: You will submit to [turnitin](https://moodlecurrent.gre.ac.uk/mod/assign/view.php?id=2414633) the **hash** of the final commit for the project, `phase\3` will be merged into `main` once you have finished developing and testing. 
 
