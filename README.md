@@ -5,9 +5,9 @@
   - [Contents](#contents)
   - [Table](#table)
   - [Introduction](#introduction)
-  - [Overall System Architecture:](#overall-system-architecture)
+  - [Overall System Architecture](#overall-system-architecture)
   - [Use Case Diagram](#use-case-diagram)
-     -[Table Discriptions](#table-Discriptions)
+     - [Table Discriptions](#table-discriptions)
   - [Sequence diagram](#sequence-diagram)
   - [Activity Diagram](#activity-diagram)
   - [State chart diagram](#state-chart-diagram)
@@ -132,11 +132,14 @@ Use case diagrams are useful for collecting and visualising a system needs from 
 |Response| Confirmation of successful book.
 |Comments| Late returns may results in fines, which must be computed according to the return status. The systems should manage fine computations, alerts, and modify the book's current status .
 <div align=left>
+
+## Sequence Diagram
+
+Sequence diagrams are a type of diagram used to display information about individual system elements and their interactions. These kinds of diagrams are typically abstractions of the overall system and tend not to show any technical details about it. This is to aid any developer in understanding how the system itself should function before implementing it, as well as to show any stakeholders who might not understand specific technical details how the system functions.
  
-## Description
+## Class Diagram
 The UML Class diagram is used to represent the static state of the library system as an object oriented system, describing it's structure by showing the classes, their attributes and methods as well as their relationships.
 The main abstract class of this system is "Databases" class. It includes two other classes described in the "Phase 1 readme": "Users" and "Books". Both of these classes have a list of attributes that describe the core information about  the objects. "Users" Class is also devided into "Staff" and "Students". "Staff" has an ability to update both the data bases, while "Sudents" are able to borrow books. In order to provide the borrowing system required flexibility and functionality two additional child classes of "Students" exist. They are "History" and "Fees". The "History" class includes all the info about previous book borrowings particular student did with the dates of recieving and returining the book. The "Fees" class features objects that contains the information about current student's fees and the overdue period as well as a method of paying the fee.
-
 
 ## Activity Diagram
 An activity diagram shows how a system's activities move and highlights the dynamic elements of a workflow or process. It provides a clear understanding of how various components interact by graphically illustrating the steps, decisions, and concurrent activities involved in carrying out a specific functionality.
@@ -190,18 +193,7 @@ In this project this state chart diagram starts with the “users”, students a
 ![Student Usecase diagram](https://www.plantuml.com/plantuml/png/XP8nxzem4CLtVuhhVme3gJfqgH02XgeCbL3fo7ArZyJ2kKFdSodVlWbD9KjGDKkaztu_woNo9XkgbI6vH6S34z3OzGOXAdcBmkwTzJGG3AZPvKlaAoeEWDv4ZtPF17YZB0CvzyZWxMWb4DiRO8QIITtuJ6zOBfVGVACkPYDTL5cIBd8TVBq3UY-5RU7SNCEgRQ7P5kk9BNgSnftuCyP4uSJVTLGwdBXFi5e1_VAf18BrsltVcS_UyqzCCJn6Cmxq_e0vtqJ3YpFdJMsxXkP8gBxVYLncCF9hS2UgSeD_a7LRup_60CwYKAucyE4Z1BpdFtwbr_zij9i3QHR617iUtU7nwOidolVaBr8iFrTV98KNyJaoFSVr-B6TgQdmHPNOCinYLMszrnAv-rkv3N6Ohk9l)
 ![Librarian Usecase diagram](https://www.plantuml.com/plantuml/png/bP91Qnj138Nl-XLgJkk3tNin9cbA8T10ITgRBygETdV8ZCPeD4dzxxjhZw7k9WJlPK5wtqDwe-jif5PYWC2TeILKtm-6pYktvfF09niuCaRI3FdPouwK8b9hIHzj7nZfbNEA30278bxzy4zAwacka39cewu3EFnmkLnY4rBlPO7_bkv9gEUjtCaBY-b-yLRpdkCJQpxhFR0L5VoQqlFOW9FtUhLgReeDBEPRclROodVoWTrMVkaUgQTHzWNNQ-G_RIYESRE1Zv3gZCqu9WNli6HMeSYVVrBEhqdT0cUUTQBLQeFD8vEsmpHi5Nev2H5WbaAbRfp38_C_z2xom36zyANKxvqZUvU2sKECK7ENSs6CnyhWTzZI6CFRskfVIrlvnaO-7DxjjEFv9BTaDEPNU1ONr1KlWwhaCcZw4CukhPx1xK3QCuR9G8_jpWlFZm2kMLo9uIy0)
 
-## Class Diagram
-![Image of the UML Classs Diagram](ClassDiagramLibrary1.jpg)
- 
-# Activity Diagram
-![Activity Diagram](https://www.plantuml.com/plantuml/png/VLD9Rziy4BthLym7N-p3XtJfIGxQU6bEILeqNT3ZM1n90r4SXI9Zg4N-UqdHJWGtwIdnuriuRyIBtg5rljNPVwwcbg15HvRnV_5Eiw4iE-_TeEbzXeNZUtR3bh6osCBl362DHLDPyKPjH8k5MUTjfocUY5La3-XE1ru0ByMuPw0R3BaOGlKKlULV16_UPLduhHXRCMhCV2wLJJEUNB6Xau1fwXGxnEwieDhZaD19BC13J4PhPPzo_ssqYlTVH_p4wkrezP0fANnBnYMpqndwPjXfJu5tVdOeVDnCDjlNx2Z_rfE5AwdOB3CkOJx-2zp3hIyAwllIwmyBS3KPcF-aVf51g0KrLPR8vDSOoDTa_3BWKHxjHhNpYemxKGAKOjCSC5jpV-S9ydKeegUmM6dwQ9CElTN33n6LRseg6bZT8slSiMOtB1-T02jaSzGej4sFkXMJVmdPoH7ccrea-4S8DMpHqU8OCmuS070Ipfst9ebE9pu4D3Ks3Fa6TU5rb8tQIoAOltxLGKSM50x9FIagqIfVTPqU9jmDTXqfm7Z3-1MGEbprEsfFft8oLbGekY7uZ4DST1pzqUx89gEuF3Q1TnvRj6me20rM53QCvgdTSNa3QItxOxz58JvsXXfD4LsJvzF2PfghsgMrJxkALD8zJNUFPNcwRfY9BMfMa7zKx63aRiaXwwThNPDYttuwyBQaoL5YplViQjY8ATcsw5ZCugMlO2CMTGg9z_ihf1ONdpNaAwNEKaOQvCMGQG_7cjFhWJmy5_5kcQK6qkEv37canfTYIUKtuhWSnZboc3AMaQ7nFdZ6ewzaMpReGlafvIByyQt-0m00)
-
-# State Chart Diagram
-![State Chart Diagram](<UML State Chart Diagram.png>)
-
-<div align=Left>
-
-  ## Sequence Diagram
+## Sequence Diagram
 
 The UML diagram below shows the interaction between the user and a library system when login into their account.
 
@@ -226,9 +218,16 @@ Login Authentication->>-User: return message incorrect credentials and do not co
 end
 ```
 
-## Diagram description
+## Class Diagram
+![Image of the UML Classs Diagram](ClassDiagramLibrary1.jpg)
+ 
+# Activity Diagram
+![Activity Diagram](https://www.plantuml.com/plantuml/png/VLD9Rziy4BthLym7N-p3XtJfIGxQU6bEILeqNT3ZM1n90r4SXI9Zg4N-UqdHJWGtwIdnuriuRyIBtg5rljNPVwwcbg15HvRnV_5Eiw4iE-_TeEbzXeNZUtR3bh6osCBl362DHLDPyKPjH8k5MUTjfocUY5La3-XE1ru0ByMuPw0R3BaOGlKKlULV16_UPLduhHXRCMhCV2wLJJEUNB6Xau1fwXGxnEwieDhZaD19BC13J4PhPPzo_ssqYlTVH_p4wkrezP0fANnBnYMpqndwPjXfJu5tVdOeVDnCDjlNx2Z_rfE5AwdOB3CkOJx-2zp3hIyAwllIwmyBS3KPcF-aVf51g0KrLPR8vDSOoDTa_3BWKHxjHhNpYemxKGAKOjCSC5jpV-S9ydKeegUmM6dwQ9CElTN33n6LRseg6bZT8slSiMOtB1-T02jaSzGej4sFkXMJVmdPoH7ccrea-4S8DMpHqU8OCmuS070Ipfst9ebE9pu4D3Ks3Fa6TU5rb8tQIoAOltxLGKSM50x9FIagqIfVTPqU9jmDTXqfm7Z3-1MGEbprEsfFft8oLbGekY7uZ4DST1pzqUx89gEuF3Q1TnvRj6me20rM53QCvgdTSNa3QItxOxz58JvsXXfD4LsJvzF2PfghsgMrJxkALD8zJNUFPNcwRfY9BMfMa7zKx63aRiaXwwThNPDYttuwyBQaoL5YplViQjY8ATcsw5ZCugMlO2CMTGg9z_ihf1ONdpNaAwNEKaOQvCMGQG_7cjFhWJmy5_5kcQK6qkEv37canfTYIUKtuhWSnZboc3AMaQ7nFdZ6ewzaMpReGlafvIByyQt-0m00)
 
-Sequence diagrams are a type of diagram used to display information about individual system elements and their interactions. These kinds of diagrams are typically abstractions of the overall system and tend not to show any technical details about it. This is to aid any developer in understanding how the system itself should function before implementing it, as well as to show any stakeholders who might not understand specific technical details how the system functions.
+# State Chart Diagram
+![State Chart Diagram](<UML State Chart Diagram.png>)
+
+<div align=Left>
 
 ## Gantt Chart
 
