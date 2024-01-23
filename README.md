@@ -4,10 +4,10 @@
 - [Phase 2 - System Modelling Design](#phase-2---system-modelling-design)
   - [Contents](#contents)
   - [Introduction](#introduction)
-  - [Overall System Architecture](#overall-system-architecture)
+  - [Overall System Architecture:](#overall-system-architecture)
   - [Use Case Diagram](#use-case-diagram)
-  - [Activity Diagram](#activity-diagram)
   - [Table Discriptions](#table-discriptions)
+  - [Activity Diagram](#activity-diagram)
   - [Appendix](#appendix)
 - [Use Case diagram](#use-case-diagram-1)
 - [Activity Diagram](#activity-diagram-1)
@@ -123,7 +123,7 @@ Use case diagrams are useful for collecting and visualising a system needs from 
 ## Activity Diagram
 
 An activity diagram shows how a system's activities move and highlights the dynamic elements of a workflow or process. It provides a clear understanding of how various components interact by graphically illustrating the steps, decisions, and concurrent activities involved in carrying out a specific functionality.
-The many interactions and procedures that take place inside a library system are described in this activity diagram. Students and staff are the main users in the system, each with specific tasks and functions.
+The many interactions and procedures that take place inside a library system are described in this activity diagram. Students and staff are the main users in the system, each with different tasks and functions.
 
 **User Login:** 
 1.	Authorizes users to log in, starting the process.
@@ -160,4 +160,4 @@ The many interactions and procedures that take place inside a library system are
 1. PlantUML.com. (n.d.). Use case Diagram syntax and features. [online] Available at: https://plantuml.com/use-case-diagram.
 2. creately.com. (n.d.). Library Management System | Creately. [online] Available at: https://creately.com/diagram/example/hszw2rmn7/library-management-system.
 3. Jain, P. and Dahiya, D. (1970) Architecture of a library management system using gaia extended for multi agent systems, SpringerLink. Available at: https://link.springer.com/chapter/10.1007/978-3-642-19423-8_35 (Accessed: 23 January 2024). 
-4. New activity diagram beta syntax and features (no date) PlantUML.com. Available at: https://plantuml.com/activity-diagram-beta (Accessed: 23 January 2024). 
+4. New activity diagram beta syntax and features (no date) PlantUML.com. Available at: https://plantuml.com/activity-diagram-beta (Accessed: 23 January 2024). git
