@@ -4,10 +4,13 @@
 - [Phase 2 - System Modelling Design](#phase-2---system-modelling-design)
   - [Contents](#contents)
   - [Introduction](#introduction)
+  - [Overall System Architecture](#overall-system-architecture)
   - [Use Case Diagram](#use-case-diagram)
+  - [Activity Diagram](#activity-diagram)
   - [Table Discriptions](#table-discriptions)
   - [Appendix](#appendix)
 - [Use Case diagram](#use-case-diagram-1)
+- [Activity Diagram](#activity-diagram-1)
   - [References and Acknowledgements](#references-and-acknowledgements)
 ## Introduction
 The System Modelling and design Phase is an important step in the software development life cycle since it is at this stage that the conceptualised system beings to take shape through comprehensive modelling and design activities.. The goal is to produce a blueprint that will guide the development team in the systems implementation. This report provides a full summary as the modelling and design tasks completed as well as a set of important diagrams that are critical in representing and communicating the systems structure and operation.
@@ -29,6 +32,16 @@ They are used to show the flow and control of a system by depicting the sequence
 This diagram depicts the various states that an item or system might enter in response to event.
 
 In summary, the accompanying diagrams give a visual depiction of the systems structure, behaviour, and relationships, providing a comprehensive picture that assists both the development team and stakeholders to comprehend and contributing to the systems effective realisation.
+
+## Overall System Architecture:
+
+
+
+The architecture of the library system includes a web application that is easy to use and secure, with roles for users and important transactional features including fine payment, return, and borrowing. A relational database is used to manage data storage, and event processing handles important system events as well as user notifications. Security protocols are put into place, including firewall protection and data encryption. It is thought to integrate with external security services and a payment gateway. Tools for analytics and reporting offer insights into the actions of users. Strong security, excellent user experience, scalability, and flexibility are all prioritized in the architecture. 
+
+The architecture of the library system allows for the effective storage of data and facilitates a number of operations, such as collecting fines, conducting inventory searches, and guaranteeing safe logins. Encryption is included into the system for critical events, such as payments and user logins.
+
+
 ## Use Case Diagram
 A use case diagram is a visual representation of how multiple actors (users or external systems) interact with a system or software application. It aids in illustrating the many ways in which users or external entities interact with the system to achieve certain objectives or tasks.
 
@@ -107,11 +120,44 @@ Use case diagrams are useful for collecting and visualising a system needs from 
 
 </div>
 
+## Activity Diagram
+
+An activity diagram shows how a system's activities move and highlights the dynamic elements of a workflow or process. It provides a clear understanding of how various components interact by graphically illustrating the steps, decisions, and concurrent activities involved in carrying out a specific functionality.
+The many interactions and procedures that take place inside a library system are described in this activity diagram. Students and staff are the main users in the system, each with specific tasks and functions.
+
+**User Login:** 
+1.	Authorizes users to log in, starting the process.
+2.	Sends the user to the Main Menu after verifying the credentials.
+
+**Main Menu:**
+1.	Displays options that are appropriate based on the user type (staff or student).
+2.	Book browsing, book rentals, loan management, book returns, and account information checking are all available to students.
+3.	The ability to add and remove books, modify book details, and remove users is available to staff.
+
+**Rent Books (Choose Rental Date):**
+1.	Students select a rental date when they rent books.
+2.	Verifies if the return is late and, if so, determines and applies a late fee that is limited    to the cost of the borrowed books.
+3.	Requests that the student pay the late fee.
+**Manage Loans:**
+1.	Students can manage their current loans, including checking the availability of books.
+2.	Staff can edit and delete user details, as well as manage the library's book inventory.
+
+**Return Books:**
+1.	Lets students return books to finish the book loan procedure.
+**Logout:**
+1.	Logs the user out of the system and ends the session.
+
+
 ## Appendix
 # Use Case diagram
 ![Student Usecase diagram](https://www.plantuml.com/plantuml/png/XP8nxzem4CLtVuhhVme3gJfqgH02XgeCbL3fo7ArZyJ2kKFdSodVlWbD9KjGDKkaztu_woNo9XkgbI6vH6S34z3OzGOXAdcBmkwTzJGG3AZPvKlaAoeEWDv4ZtPF17YZB0CvzyZWxMWb4DiRO8QIITtuJ6zOBfVGVACkPYDTL5cIBd8TVBq3UY-5RU7SNCEgRQ7P5kk9BNgSnftuCyP4uSJVTLGwdBXFi5e1_VAf18BrsltVcS_UyqzCCJn6Cmxq_e0vtqJ3YpFdJMsxXkP8gBxVYLncCF9hS2UgSeD_a7LRup_60CwYKAucyE4Z1BpdFtwbr_zij9i3QHR617iUtU7nwOidolVaBr8iFrTV98KNyJaoFSVr-B6TgQdmHPNOCinYLMszrnAv-rkv3N6Ohk9l)
 ![Librarian Usecase diagram](https://www.plantuml.com/plantuml/png/bP91Qnj138Nl-XLgJkk3tNin9cbA8T10ITgRBygETdV8ZCPeD4dzxxjhZw7k9WJlPK5wtqDwe-jif5PYWC2TeILKtm-6pYktvfF09niuCaRI3FdPouwK8b9hIHzj7nZfbNEA30278bxzy4zAwacka39cewu3EFnmkLnY4rBlPO7_bkv9gEUjtCaBY-b-yLRpdkCJQpxhFR0L5VoQqlFOW9FtUhLgReeDBEPRclROodVoWTrMVkaUgQTHzWNNQ-G_RIYESRE1Zv3gZCqu9WNli6HMeSYVVrBEhqdT0cUUTQBLQeFD8vEsmpHi5Nev2H5WbaAbRfp38_C_z2xom36zyANKxvqZUvU2sKECK7ENSs6CnyhWTzZI6CFRskfVIrlvnaO-7DxjjEFv9BTaDEPNU1ONr1KlWwhaCcZw4CukhPx1xK3QCuR9G8_jpWlFZm2kMLo9uIy0)
 
+# Activity Diagram
+![Activity Diagram](https://www.plantuml.com/plantuml/png/VLD9Rziy4BthLym7N-p3XtJfIGxQU6bEILeqNT3ZM1n90r4SXI9Zg4N-UqdHJWGtwIdnuriuRyIBtg5rljNPVwwcbg15HvRnV_5Eiw4iE-_TeEbzXeNZUtR3bh6osCBl362DHLDPyKPjH8k5MUTjfocUY5La3-XE1ru0ByMuPw0R3BaOGlKKlULV16_UPLduhHXRCMhCV2wLJJEUNB6Xau1fwXGxnEwieDhZaD19BC13J4PhPPzo_ssqYlTVH_p4wkrezP0fANnBnYMpqndwPjXfJu5tVdOeVDnCDjlNx2Z_rfE5AwdOB3CkOJx-2zp3hIyAwllIwmyBS3KPcF-aVf51g0KrLPR8vDSOoDTa_3BWKHxjHhNpYemxKGAKOjCSC5jpV-S9ydKeegUmM6dwQ9CElTN33n6LRseg6bZT8slSiMOtB1-T02jaSzGej4sFkXMJVmdPoH7ccrea-4S8DMpHqU8OCmuS070Ipfst9ebE9pu4D3Ks3Fa6TU5rb8tQIoAOltxLGKSM50x9FIagqIfVTPqU9jmDTXqfm7Z3-1MGEbprEsfFft8oLbGekY7uZ4DST1pzqUx89gEuF3Q1TnvRj6me20rM53QCvgdTSNa3QItxOxz58JvsXXfD4LsJvzF2PfghsgMrJxkALD8zJNUFPNcwRfY9BMfMa7zKx63aRiaXwwThNPDYttuwyBQaoL5YplViQjY8ATcsw5ZCugMlO2CMTGg9z_ihf1ONdpNaAwNEKaOQvCMGQG_7cjFhWJmy5_5kcQK6qkEv37canfTYIUKtuhWSnZboc3AMaQ7nFdZ6ewzaMpReGlafvIByyQt-0m00)
+
 ## References and Acknowledgements
 1. PlantUML.com. (n.d.). Use case Diagram syntax and features. [online] Available at: https://plantuml.com/use-case-diagram.
 2. creately.com. (n.d.). Library Management System | Creately. [online] Available at: https://creately.com/diagram/example/hszw2rmn7/library-management-system.
+3. Jain, P. and Dahiya, D. (1970) Architecture of a library management system using gaia extended for multi agent systems, SpringerLink. Available at: https://link.springer.com/chapter/10.1007/978-3-642-19423-8_35 (Accessed: 23 January 2024). 
+4. New activity diagram beta syntax and features (no date) PlantUML.com. Available at: https://plantuml.com/activity-diagram-beta (Accessed: 23 January 2024). 
