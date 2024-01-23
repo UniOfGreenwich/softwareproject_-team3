@@ -19,7 +19,7 @@
     - [Activity Diagram](#activity-diagram-1)
     - [State Chart Diagram](#State-Chart-Diagram-1)
     - [Gantt Chart](#Gantt-Chart)
-  - [References and Acknowledgements](#references-and-acknowledgements)
+- [References and Acknowledgements](#references-and-acknowledgements)
 
 ## Table
  
