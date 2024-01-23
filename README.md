@@ -11,6 +11,10 @@
   - [Activity Diagram](#activity-diagram)
   - [State chart diagram](#state-chart-diagram)
     - [In this project :](#in-this-project-)
+  - [Overall System Architecture:](#overall-system-architecture)
+  - [Use Case Diagram](#use-case-diagram)
+  - [Table Discriptions](#table-discriptions)
+  - [Activity Diagram](#activity-diagram)
   - [Appendix](#appendix)
 - [Use Case diagram](#use-case-diagram-1)
 - [Activity Diagram](#activity-diagram-1)
@@ -210,7 +214,39 @@ As this is a state diagram lets see about the states it contains:
  
 ### In this project :
 In this project this state chart diagram starts with the “users”, students and staffs. They first need to login into their account. Then the next step is the “main menu” which contains two choices “Borrow Book” in which the book details are required to avoid the clash and to easily find out if the books are missing. The second one is the “Return Books” there the deadline for the book is highlighted because this will be very easy to charge when they forget to renew before the deadline. Then comes the “Account details” which firstly has the “Fees” column where the current fees which is yet to be paid is shown and secondly comes the “Personal information” section where this specific user’s contact detail such as name, address, phone numbers and even the payment details which is to be paid are displayed. Finally the “Payment” where they just need to click pay and the details will be filled automatically if they are the regular buyers if not the details to be filled and will be auto saved and then click to pay the payment will be done. This sate chart then ends with circular symbol that represents the program's final state at the end of the state chart is covered with another thin circle.  
+
 ![State Chart Diagram](<UML State Chart Diagram.png>)
+
+</div>
+
+## Activity Diagram
+
+An activity diagram shows how a system's activities move and highlights the dynamic elements of a workflow or process. It provides a clear understanding of how various components interact by graphically illustrating the steps, decisions, and concurrent activities involved in carrying out a specific functionality.
+The many interactions and procedures that take place inside a library system are described in this activity diagram. Students and staff are the main users in the system, each with different tasks and functions.
+
+**User Login:** 
+1.	Authorizes users to log in, starting the process.
+2.	Sends the user to the Main Menu after verifying the credentials.
+
+**Main Menu:**
+1.	Displays options that are appropriate based on the user type (staff or student).
+2.	Book browsing, book rentals, loan management, book returns, and account information checking are all available to students.
+3.	The ability to add and remove books, modify book details, and remove users is available to staff.
+
+**Rent Books (Choose Rental Date):**
+1.	Students select a rental date when they rent books.
+2.	Verifies if the return is late and, if so, determines and applies a late fee that is limited    to the cost of the borrowed books.
+3.	Requests that the student pay the late fee.
+**Manage Loans:**
+1.	Students can manage their current loans, including checking the availability of books.
+2.	Staff can edit and delete user details, as well as manage the library's book inventory.
+
+**Return Books:**
+1.	Lets students return books to finish the book loan procedure.
+**Logout:**
+1.	Logs the user out of the system and ends the session.
+
+
 ## Appendix
 # Use Case diagram
 ![Student Usecase diagram](https://www.plantuml.com/plantuml/png/XP8nxzem4CLtVuhhVme3gJfqgH02XgeCbL3fo7ArZyJ2kKFdSodVlWbD9KjGDKkaztu_woNo9XkgbI6vH6S34z3OzGOXAdcBmkwTzJGG3AZPvKlaAoeEWDv4ZtPF17YZB0CvzyZWxMWb4DiRO8QIITtuJ6zOBfVGVACkPYDTL5cIBd8TVBq3UY-5RU7SNCEgRQ7P5kk9BNgSnftuCyP4uSJVTLGwdBXFi5e1_VAf18BrsltVcS_UyqzCCJn6Cmxq_e0vtqJ3YpFdJMsxXkP8gBxVYLncCF9hS2UgSeD_a7LRup_60CwYKAucyE4Z1BpdFtwbr_zij9i3QHR617iUtU7nwOidolVaBr8iFrTV98KNyJaoFSVr-B6TgQdmHPNOCinYLMszrnAv-rkv3N6Ohk9l)
@@ -225,3 +261,5 @@ In this project this state chart diagram starts with the “users”, students a
 3. Jain, P. and Dahiya, D. (1970) Architecture of a library management system using gaia extended for multi agent systems, SpringerLink. Available at: https://link.springer.com/chapter/10.1007/978-3-642-19423-8_35 (Accessed: 23 January 2024). 
 4. New activity diagram beta syntax and features (no date) PlantUML.com. Available at: https://plantuml.com/activity-diagram-beta (Accessed: 23 January 2024). git
 3. 
+3. Jain, P. and Dahiya, D. (1970) Architecture of a library management system using gaia extended for multi agent systems, SpringerLink. Available at: https://link.springer.com/chapter/10.1007/978-3-642-19423-8_35 (Accessed: 23 January 2024). 
+4. New activity diagram beta syntax and features (no date) PlantUML.com. Available at: https://plantuml.com/activity-diagram-beta (Accessed: 23 January 2024). git
