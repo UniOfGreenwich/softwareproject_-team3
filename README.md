@@ -3,15 +3,31 @@
   ## Contents
 - [Phase 2 - System Modelling Design](#phase-2---system-modelling-design)
   - [Contents](#contents)
+  - [Table](#table)
   - [Introduction](#introduction)
   - [Overall System Architecture:](#overall-system-architecture)
   - [Use Case Diagram](#use-case-diagram)
   - [Table Discriptions](#table-discriptions)
   - [Activity Diagram](#activity-diagram)
+  - [State chart diagram](#state-chart-diagram)
+    - [In this project :](#in-this-project-)
   - [Appendix](#appendix)
 - [Use Case diagram](#use-case-diagram-1)
 - [Activity Diagram](#activity-diagram-1)
   - [References and Acknowledgements](#references-and-acknowledgements)
+
+## Table
+ 
+| Name | Assignment |
+|-----|-----| 
+|[Denis](https://github.com/wheissmd) | Class Diagram 
+|[Wojciech](https://github.com/flock-of-jays)| Sequence diagram // Gantt chart 
+|[Maisha](https://github.com/maishkhan)|Content // Introduction // Use Case Diagram // Reference  
+|[Reshmaa](http://github.com/reshmaa2005)| Table // state chart diagram 
+|[Sanjita](http://github.com/SanjiGre99)| Activity diagram // Overall Architecture
+
+
+
 ## Introduction
 The System Modelling and design Phase is an important step in the software development life cycle since it is at this stage that the conceptualised system beings to take shape through comprehensive modelling and design activities.. The goal is to produce a blueprint that will guide the development team in the systems implementation. This report provides a full summary as the modelling and design tasks completed as well as a set of important diagrams that are critical in representing and communicating the systems structure and operation.
 
@@ -52,6 +68,7 @@ A use case diagram is a visual representation of how multiple actors (users or e
 4.	***System boundaries:*** The system boundary is a box that contains all the use case ad actors, indicating the scoop of the system being modelled.
 
 Use case diagrams are useful for collecting and visualising a system needs from the perspective of its users. They are frequently used in the early phases of software development to interact with stakeholders’ and offer a high-level overview of the systems capabilities. Use case are frequently used as the foundation for more extensive models and data throughout the software creation procedure.
+
  ## Table Discriptions 
  <div align=center>
  
@@ -117,8 +134,7 @@ Use case diagrams are useful for collecting and visualising a system needs from 
 |Stimulus| User command issued by a librarian or staff.
 |Response| Confirmation of successful book.
 |Comments| Late returns may results in fines, which must be computed according to the return status. The systems should manage fine computations, alerts, and modify the book's current status .
-
-</div>
+<div align=left>
 
 ## Activity Diagram
 
@@ -148,6 +164,53 @@ The many interactions and procedures that take place inside a library system are
 1.	Logs the user out of the system and ends the session.
 
 
+## Activity Diagram
+
+An activity diagram shows how a system's activities move and highlights the dynamic elements of a workflow or process. It provides a clear understanding of how various components interact by graphically illustrating the steps, decisions, and concurrent activities involved in carrying out a specific functionality.
+The many interactions and procedures that take place inside a library system are described in this activity diagram. Students and staff are the main users in the system, each with different tasks and functions.
+
+**User Login:** 
+1.	Authorizes users to log in, starting the process.
+2.	Sends the user to the Main Menu after verifying the credentials.
+
+**Main Menu:**
+1.	Displays options that are appropriate based on the user type (staff or student).
+2.	Book browsing, book rentals, loan management, book returns, and account information checking are all available to students.
+3.	The ability to add and remove books, modify book details, and remove users is available to staff.
+
+**Rent Books (Choose Rental Date):**
+1.	Students select a rental date when they rent books.
+2.	Verifies if the return is late and, if so, determines and applies a late fee that is limited    to the cost of the borrowed books.
+3.	Requests that the student pay the late fee.
+**Manage Loans:**
+1.	Students can manage their current loans, including checking the availability of books.
+2.	Staff can edit and delete user details, as well as manage the library's book inventory.
+
+**Return Books:**
+1.	Lets students return books to finish the book loan procedure.
+**Logout:**
+1.	Logs the user out of the system and ends the session.
+
+
+## State chart diagram 
+State chart diagrams are also known as state transition diagrams. In normal terms it just an easy way to explain a process with the help of a diagram, basically a very complicated process could very easily explained to everyone when we use the state chart diagram. This diagram involves the commands and can predict the process with those commands. These commands triggers the possibilities of the process and states it.  
+As this is a state diagram lets see about the states it contains: 
+ 
+* ### Initial state 
+        The start state or the initial state is represented by a big black dot which automatically represents that the process begins here. These states the particular circumstances or stages that a framework can be in at a given time. Each state depicts a particular way of behaving of the framework and is addressed by a square shape with adjusted corners. For instance, in a traffic signal framework, the states could be "Red," "Yellow," and "Green." 
+ 
+* ### Event 
+        This part of the diagram event is the very next state and this predicts neither the action occurs nor it doesn’t and at times it does contains the event parameter which is written within the normal paranthesis which basicaly the normal explanation of the action.  
+  
+* ### Arrows 
+        This the indication that the process is transferred to the next steps and more likely this is the transition in th eprocesses.These represents the difference in state set off by an occasion. Changes are portrayed as bolts interfacing states, demonstrating the stream starting with one state then onto the next in light of occasions. For example, in the traffic signal framework, the change from the "Red" state to the "Green" state might be set off by the occasion of the clock arriving at a specific limit. 
+ 
+* ### Final state 
+        This is the end state which will finish the entire process. This is shown with a symbol a black dot surrounded by a thin circle.
+ 
+### In this project :
+In this project this state chart diagram starts with the “users”, students and staffs. They first need to login into their account. Then the next step is the “main menu” which contains two choices “Borrow Book” in which the book details are required to avoid the clash and to easily find out if the books are missing. The second one is the “Return Books” there the deadline for the book is highlighted because this will be very easy to charge when they forget to renew before the deadline. Then comes the “Account details” which firstly has the “Fees” column where the current fees which is yet to be paid is shown and secondly comes the “Personal information” section where this specific user’s contact detail such as name, address, phone numbers and even the payment details which is to be paid are displayed. Finally the “Payment” where they just need to click pay and the details will be filled automatically if they are the regular buyers if not the details to be filled and will be auto saved and then click to pay the payment will be done. This sate chart then ends with circular symbol that represents the program's final state at the end of the state chart is covered with another thin circle.  
+![State Chart Diagram](<UML State Chart Diagram.png>)
 ## Appendix
 # Use Case diagram
 ![Student Usecase diagram](https://www.plantuml.com/plantuml/png/XP8nxzem4CLtVuhhVme3gJfqgH02XgeCbL3fo7ArZyJ2kKFdSodVlWbD9KjGDKkaztu_woNo9XkgbI6vH6S34z3OzGOXAdcBmkwTzJGG3AZPvKlaAoeEWDv4ZtPF17YZB0CvzyZWxMWb4DiRO8QIITtuJ6zOBfVGVACkPYDTL5cIBd8TVBq3UY-5RU7SNCEgRQ7P5kk9BNgSnftuCyP4uSJVTLGwdBXFi5e1_VAf18BrsltVcS_UyqzCCJn6Cmxq_e0vtqJ3YpFdJMsxXkP8gBxVYLncCF9hS2UgSeD_a7LRup_60CwYKAucyE4Z1BpdFtwbr_zij9i3QHR617iUtU7nwOidolVaBr8iFrTV98KNyJaoFSVr-B6TgQdmHPNOCinYLMszrnAv-rkv3N6Ohk9l)
@@ -161,3 +224,4 @@ The many interactions and procedures that take place inside a library system are
 2. creately.com. (n.d.). Library Management System | Creately. [online] Available at: https://creately.com/diagram/example/hszw2rmn7/library-management-system.
 3. Jain, P. and Dahiya, D. (1970) Architecture of a library management system using gaia extended for multi agent systems, SpringerLink. Available at: https://link.springer.com/chapter/10.1007/978-3-642-19423-8_35 (Accessed: 23 January 2024). 
 4. New activity diagram beta syntax and features (no date) PlantUML.com. Available at: https://plantuml.com/activity-diagram-beta (Accessed: 23 January 2024). git
+3. 
