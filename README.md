@@ -18,7 +18,7 @@
     - [Class Diagram](#Class-Diagram-1)
     - [Activity Diagram](#activity-diagram-1)
     - [State Chart Diagram](#State-Chart-Diagram-1)
-    - [Gantt Chart](Gantt-Chart)
+    - [Gantt Chart](#Gantt-Chart)
   - [References and Acknowledgements](#references-and-acknowledgements)
 
 ## Table
