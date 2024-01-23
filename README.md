@@ -28,10 +28,10 @@
 |[Denis](https://github.com/wheissmd) | Class Diagram 
 |[Wojciech](https://github.com/flock-of-jays)| Sequence diagram // Gantt chart 
 |[Maisha](https://github.com/maishkhan)|Content // Introduction // Use Case Diagram // Reference  
-|[Reshmaa](http://github.com/reshmaa2005)| Table // state chart diagram 
+|[Reshmaa](http://github.com/reshmaa2005)| Table // State chart diagram 
 |[Sanjita](http://github.com/SanjiGre99)| Activity diagram // Overall Architecture
 ## Introduction
-The System Modelling and design Phase is an important step in the software development life cycle since it is at this stage that the conceptualised system beings to take shape through comprehensive modelling and design activities.. The goal is to produce a blueprint that will guide the development team in the systems implementation. This report provides a full summary as the modelling and design tasks completed as well as a set of important diagrams that are critical in representing and communicating the systems structure and operation.
+The System Modelling and design Phase is an important step in the software development life cycle since it is at this stage that the conceptualised system beings to take shape through comprehensive modelling and design activities. The goal is to produce a blueprint that will guide the development team in the systems implementation. This report provides a full summary as the modelling and design tasks completed as well as a set of important diagrams that are critical in representing and communicating the systems structure and operation.
 
 **Diagrams and their purpose:**
 1.	***Use case Diagrams:***
@@ -98,7 +98,7 @@ Use case diagrams are useful for collecting and visualising a system needs from 
 | Unit | Depiction |
 |------|------| 
 |Actors| Student (User)
-|Description| Members may check their accounts status, whih includes personal information. checkouts, book holdings, and any penalties incurred. Members can examine their account information to ensure openness. Members may also view payemnt history, accrued penalties, and current fines/blocks in the fine area
+|Description| Members may check their accounts status, whih includes personal information. checkouts, book holdings, and any penalties incurred. Members can examine their account information to ensure openness.
 |Data| Personal information, Holds and Fines.
 |Stimulus| User command issued by a Student (library member)
 |Response| Showing Account Details.
@@ -273,4 +273,10 @@ State chart diagrams:after a2,7d
 1. PlantUML.com. (n.d.). Use case Diagram syntax and features. [online] Available at: https://plantuml.com/use-case-diagram.
 2. creately.com. (n.d.). Library Management System | Creately. [online] Available at: https://creately.com/diagram/example/hszw2rmn7/library-management-system.
 3. Jain, P. and Dahiya, D. (1970) Architecture of a library management system using gaia extended for multi agent systems, SpringerLink. Available at: https://link.springer.com/chapter/10.1007/978-3-642-19423-8_35 (Accessed: 23 January 2024). 
-4. New activity diagram beta syntax and features (no date) PlantUML.com. Available at: https://plantuml.com/activity-diagram-beta (Accessed: 23 January 2024). git 
+4. New activity diagram beta syntax and features (no date) PlantUML.com. Available at: https://plantuml.com/activity-diagram-beta (Accessed: 23 January 2024). git
+5. www.visual-paradigm.com. (n.d.). All You Need to Know about State Diagrams. [online] Available at: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/about-state-diagrams/.
+6. LucidChart (n.d.). State Machine Diagram Tutorial. [online] Lucidchart. Available at: https://www.lucidchart.com/pages/uml-state-machine-diagram.
+7. sparxsystems.com. (n.d.). State Machine Diagram - UML 2 Tutorial | Sparx Systems. [online] Available at: https://sparxsystems.com/resources/tutorials/uml2/state-diagram.html.
+
+
+‌
