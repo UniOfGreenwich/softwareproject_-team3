@@ -44,6 +44,11 @@ namespace dataBASE
             }
         }
 
+        /// <summary>
+        /// Edits values with the custom SQL Command
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns> The number of rows effected </returns>
         public int Edit(String query)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -68,10 +73,14 @@ namespace dataBASE
             return dataTable;
         }
 
+        /// <summary>
+        /// Returns Data Table with values required for Home Screen
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param password="password"></param>
+        /// <returns> Data Table </returns>
         public DataTable GetHomeScreenDetails(string name, string password)
         {
-
-
             string query = "SELECT Name, Password, FullName, Role, Book_onHold, BookID1, BookID2, BookID3 FROM dbo.Account_data WHERE Name = '" + name + "' AND Password = '" + password + "'";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -81,11 +90,12 @@ namespace dataBASE
                 return Table(adapter);
             }
         }
+
         /// <summary>
-        /// BLAH BLAH
+        /// Returns Data Table with Student Info
         /// </summary>
         /// <param name="name"></param>
-        /// <returns></returns>
+        /// <returns> Data Table </returns>
         public DataTable StudentInfoTable(string name)
         {
             String query = "SELECT Name, FullName, Email, Role, PhoneNumber, Book_onHold, BookID1, BookID2, BookID3, Fees FROM dbo.Account_data WHERE Name = '" + name + "'";
@@ -98,6 +108,13 @@ namespace dataBASE
 
         }
 
+        /// <summary>
+        /// Updates required data in SQL data base
+        /// </summary>
+        /// <param fieldToUpdate="fieldToUpdate"></param>
+        /// <param name="name"></param>
+        /// <param newValue ="newValue"></param>
+        /// <returns></returns>
         public void UpdateStudentInfo(string fieldToUpdate, string newValue, string name)
         {
 
@@ -123,6 +140,35 @@ namespace dataBASE
                 command.CommandText = "UPDATE dbo.Account_data SET FullName = @FullName WHERE Name = '" + name + "'";
                 command.Parameters.AddWithValue("@FullName", newValue);
             }
+            else if (fieldToUpdate == "Name")
+            {
+                command.CommandText = "UPDATE dbo.Account_data SET Name = @Name WHERE Name = '" + name + "'";
+                command.Parameters.AddWithValue("@Name", newValue);
+            }
+            else if (fieldToUpdate == "Book_onHold")
+            {
+                bool newValueInt = Convert.ToBoolean(newValue);
+                command.CommandText = "UPDATE dbo.Account_data SET Book_onHold = @Book_onHold WHERE Name = '" + name + "'";
+                command.Parameters.AddWithValue("@Book_onHold", newValue);
+            }
+            else if (fieldToUpdate == "BookID1")
+            {
+                int newValueInt = Convert.ToInt32(newValue);
+                command.CommandText = "UPDATE dbo.Account_data SET BookID1 = @BookID1 WHERE Name = '" + name + "'";
+                command.Parameters.AddWithValue("@BookID1", newValue);
+            }
+            else if (fieldToUpdate == "BookID2")
+            {
+                int newValueInt = Convert.ToInt32(newValue);
+                command.CommandText = "UPDATE dbo.Account_data SET BookID2 = @BookID2 WHERE Name = '" + name + "'";
+                command.Parameters.AddWithValue("@BookID2", newValue);
+            }
+            else if (fieldToUpdate == "BookID3")
+            {
+                int newValueInt = Convert.ToInt32(newValue);
+                command.CommandText = "UPDATE dbo.Account_data SET BookID3 = @BookID3 WHERE Name = '" + name + "'";
+                command.Parameters.AddWithValue("@BookID3", newValue);
+            }
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -133,12 +179,135 @@ namespace dataBASE
             }
 
         }
-        #endregion ACCOUNT_INFO_END
 
+        /// <summary>
+        /// Returns Data Table with srudents books on hold and fees
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns> Data Table </returns>
+        public DataTable CheckBooksonHoldTable(string name)
+        {
+            SqlCommand command = new SqlCommand();
 
-        #region INVENTORY_MANAGEMENT
+            string query = "SELECT Book_onHold, BookID1, BookID2, BookID3, Fees FROM dbo.Account_data WHERE Name = '" + name + "'";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
 
-        #endregion INVENTORY_MANAGEMENT_END
+                return Table(adapter);
+            }
+
+        }
+
+        /// <summary>
+        /// Returns Data Table with all the students, their books on hold and fees
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns> Data Table </returns>
+        public DataTable CheckStudentsBooksonHoldTable()
+        {
+            SqlCommand command = new SqlCommand();
+
+            string query = "SELECT Book_onHold, BookID1, BookID2, BookID3, Fees FROM dbo.Account_data WHERE Book_onHold = '" + true + "'";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+
+                return Table(adapter);
+            }
+
+        }
+
+        /// <summary>
+        /// Adds new Student to a data base
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public void AddNewStudent(string name, string fullname, string email, string phonenumber, string password)
+        {
+            int newId = GetNextId();
+            DateTime regDate = DateTime.Today;
+            bool role = false;
+            bool bookOnHold = false;
+            int bookId1 = 0;
+            int bookId2 = 0;
+            int bookId3 = 0;
+            decimal fees = 0;
+
+            string query = @"INSERT INTO dbo.Account_data (Id, Name, Password, FullName, Email, Reg_Date, Role, Book_onHold, BookID1, BookID2, BookID3, PhoneNumber, Fees) VALUES (@Id, @Name, @Password, @FullName, @Email, @RegDate, @Role, @BookOnHold, @BookID1, @BookID2, @BookID3, @PhoneNumber, @Fees)";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+
+                command.Parameters.AddWithValue("@Id", newId);
+                command.Parameters.AddWithValue("@Name", name);
+                command.Parameters.AddWithValue("@Password", password);
+                command.Parameters.AddWithValue("@FullName", fullname);
+                command.Parameters.AddWithValue("@Email", email);
+                command.Parameters.AddWithValue("@RegDate", regDate);
+                command.Parameters.AddWithValue("@Role", role);
+                command.Parameters.AddWithValue("@BookOnHold", bookOnHold);
+                command.Parameters.AddWithValue("@BookID1", bookId1);
+                command.Parameters.AddWithValue("@BookID2", bookId2);
+                command.Parameters.AddWithValue("@BookID3", bookId3);
+                command.Parameters.AddWithValue("@PhoneNumber", phonenumber);
+                command.Parameters.AddWithValue("@Fees", fees);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
+
+        /// <summary>
+        /// Checks accounts main IDs and returns the next one to create new student account
+        /// </summary>
+        /// <returns></returns>
+        private int GetNextId()
+        {
+            string query = "SELECT MAX(Id) FROM dbo.Account_data";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                var result = command.ExecuteScalar();
+
+                if (result != null)
+                {
+                    return Convert.ToInt32(result) + 1;
+                }
+                else
+                {
+                    return 1; // If no records, start from 1
+                }
+            }
+        }
+
+        /// <summary>
+        /// Deletes user from data base
+        /// </summary>
+        /// <returns></returns>
+        public void DeleteUser(string name)
+        {
+            string query = "DELETE FROM dbo.Account_data WHERE Name = @Name";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@Name", name);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
     }
+
+
+    #endregion ACCOUNT_INFO_END
+
+
+    #region INVENTORY_MANAGEMENT
+
+    #endregion INVENTORY_MANAGEMENT_END
+
 }
 
