@@ -66,6 +66,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AccountsDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BorrowingBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowingBook.Designer.cs">
+      <DependentUpon>BorrowingBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="SQLcommands.cs" />
     <Compile Include="ManageStudentAccounts.cs">
       <SubType>Form</SubType>
@@ -99,6 +105,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BorrowingBook.resx">
+      <DependentUpon>BorrowingBook.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageStudentAccounts.resx">
       <DependentUpon>ManageStudentAccounts.cs</DependentUpon>
     </EmbeddedResource>

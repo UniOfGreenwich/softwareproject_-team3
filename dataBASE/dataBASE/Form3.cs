@@ -99,7 +99,8 @@ namespace dataBASE
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            BorrowingBook borrowingBook = new BorrowingBook(Name);
+            borrowingBook.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
