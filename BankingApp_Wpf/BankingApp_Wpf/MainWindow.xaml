@@ -1,0 +1,54 @@
+﻿<Window x:Class="BankingApp_Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Banking System" Height="500" Width="600">
+    <Grid Background="#F4F4F4" Margin="0,0,0,-16">
+        <StackPanel Margin="20,20,20,7">
+            <Label Content="Select Account:" FontWeight="Bold" FontSize="14"/>
+            <ComboBox x:Name="accountComboBox" Width="200" Margin="0,5,0,15" SelectionChanged="AccountComboBox_SelectionChanged"/>
+
+            <Border BorderBrush="#CCCCCC" BorderThickness="0,0,0,1" Padding="0,0,0,10">
+                <TextBlock Text="Account Information" FontWeight="Bold" FontSize="16"/>
+            </Border>
+
+            <StackPanel Margin="0,0,0,15">
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                    <Label Content="Account Number:"/>
+                    <Label x:Name="accountNumberLabel" Width="200" Margin="10,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                    <Label Content="First Name:"/>
+                    <Label x:Name="firstNameLabel" Width="200" Margin="10,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                    <Label Content="Last Name:"/>
+                    <Label x:Name="lastNameLabel" Width="200" Margin="10,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                    <Label Content="Balance:"/>
+                    <Label x:Name="balanceLabel" Width="200" Margin="10,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+
+            <Border BorderBrush="#CCCCCC" BorderThickness="0,0,0,1" Padding="0,0,0,10">
+                <TextBlock Text="Selected Account Details:" FontWeight="Bold" FontSize="16"/>
+            </Border>
+
+            <TextBlock x:Name="detailsTextBlock" TextWrapping="Wrap" Margin="0,0,0,15"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Create Account" Width="150" Click="CreateAccountButton_Click" Margin="0,0,10,0"/>
+                <Button Content="View Balance" Width="150" Click="ViewBalanceButton_Click" Margin="0,0,10,0"/>
+                <Button Content="Modify Account" Width="150" Click="ModifyAccountButton_Click" Margin="0,0,10,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <Button Content="Deposit" Width="150" Click="DepositButton_Click" Margin="0,0,10,0"/>
+                <Button Content="Withdraw" Width="150" Click="WithdrawButton_Click" Margin="0,0,10,0"/>
+                <Button Content="Delete Account" Width="150" Click="DeleteAccountButton_Click" Margin="0,0,10,0"/>
+            </StackPanel>
+            <TextBlock x:Name="resultTextBlock" TextWrapping="Wrap" Height="34" RenderTransformOrigin="0.5,0.5" Width="548">
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
