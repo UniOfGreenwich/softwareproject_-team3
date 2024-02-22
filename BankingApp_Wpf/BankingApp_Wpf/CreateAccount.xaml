@@ -1,0 +1,31 @@
+﻿<Window x:Class="BankingApp_Wpf.CreateAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Create Account" Height="423" Width="400">
+    <Grid Background="#F4F4F4" Margin="0,0,0,-16">
+        <StackPanel Margin="20">
+            <Label Content="Account Number:" FontWeight="Bold" FontSize="14"/>
+            <TextBox x:Name="accountNumberTextBox" Width="250" Margin="0,5,0,10"/>
+
+            <Label Content="First Name:" FontWeight="Bold" FontSize="14"/>
+            <TextBox x:Name="firstNameTextBox" Width="250" Margin="0,5,0,10"/>
+
+            <Label Content="Last Name:" FontWeight="Bold" FontSize="14"/>
+            <TextBox x:Name="lastNameTextBox" Width="250" Margin="0,5,0,10"/>
+
+            <Label Content="Initial Balance:" FontWeight="Bold" FontSize="14"/>
+            <TextBox x:Name="initialBalanceTextBox" Width="250" Margin="0,5,0,10"/>
+
+            <Border BorderBrush="#CCCCCC" BorderThickness="0,0,0,1" Padding="0,0,0,10" Height="29">
+                <TextBlock Text="Account Type" FontWeight="Bold" FontSize="16"/>
+            </Border>
+
+            <StackPanel Margin="0,5,0,10">
+                <RadioButton x:Name="savingsRadioButton" Content="Savings Account" IsChecked="True"/>
+                <RadioButton x:Name="currentRadioButton" Content="Current Account"/>
+            </StackPanel>
+
+            <Button Content="Create Account" Width="150" Height="30" Click="CreateAccountButton_Click" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
