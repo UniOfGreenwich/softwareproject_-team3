@@ -63,7 +63,7 @@ namespace dataBASE
                 SQLcommands sqlCommands = new SQLcommands();
 
                 DataTable dt = sqlCommands.GetHomeScreenDetails(Name, Password);
-                // Returns information about currently logged in user
+                // Returns information about currently logged in user as a Data Table
 
                 if(dt.Rows.Count > 0 )
                 {
@@ -76,11 +76,12 @@ namespace dataBASE
                     int BookId3 = (int)dt.Rows[0]["BookID3"];
                     bool Boh = (bool)dt.Rows[0]["Book_onHold"];
                     int BoH = Boh ? 1 : 0;
-                   
+                   // Reeds required data
+
                     bool isStaff = (bool)dt.Rows[0]["Role"];
                     if (isStaff)
                     {
-                        //Logged in as staff
+                        //Logged in as staff, pass required data to Form 2
                         Form2 form2 = new Form2(FullNameValue, Name, Password);
                         form2.Show();
                         txt_Name.Clear();
@@ -88,7 +89,7 @@ namespace dataBASE
                     }
                     else
                     {
-                        //Logged in as student
+                        //Logged in as student, pass required data to Form 3
                         Form3 form3 = new Form3(FullNameValue, BoH, BookId1, BookId2, BookId3, Name, Password);
                         form3.Show();
                         txt_Name.Clear();

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace dataBASE
 {
+    // Gets the passed data
     public partial class Form3 : Form
     {
 
@@ -46,6 +47,7 @@ namespace dataBASE
 
         }
 
+        //Fills labels with home screen info
         private void LabelText()
         {
             label1.Text = "Welcome, " + FullName;
