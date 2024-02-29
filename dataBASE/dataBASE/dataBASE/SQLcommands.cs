@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
@@ -13,7 +13,6 @@ using System.IO;
 using System.Reflection;
 using dataBASE.Properties;
 using System.Xml.Linq;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace dataBASE
 {
@@ -300,66 +299,109 @@ namespace dataBASE
                 command.ExecuteNonQuery();
             }
         }
-    }
 
 
-    #endregion ACCOUNT_INFO_END
+
+        #endregion ACCOUNT_INFO_END
 
 
-    #region INVENTORY_MANAGEMENT
-    /*
- * AddNewBook function allows for the addition of a new book
- * if the book already exists in the database, the only thing that changes is the amountInLibrary value in the table
- */
-    public void AddNewBook(int ISBN, int amountToAdd, string bookTitle, string authour)
-    {
-        //new books
-        SqlCommand command = new SqlCommand();
+        #region INVENTORY_MANAGEMENT
 
-        string query = @"INSERT INTO dbo.Books (ISBN, amountInLibrary, bookTitle, author) VALUES (@ISBN, @amountToAdd, @bookTitle, @author)";
-
-        using (SqlConnection connection = new SqlConnection(connectionString))
-        using (SqlCommand command = new SqlCommand(query, connection))
+        /*
+         * AddNewBook function allows for the addition of a new book
+         * if the book already exists in the database, the only thing that changes is the amountInLibrary value in the table
+         */
+        public void AddNewBook(int ISBN, int amountToAdd, string bookTitle, string authour)
         {
+            //new books
+      
+            string query = @"INSERT INTO dbo.Books (ISBN, amountInLibrary, bookTitle, author) VALUES (@ISBN, @amountToAdd, @bookTitle, @author)";
 
-            command.Parameters.AddWithValue("@ISBN", ISBN);
-            command.Parameters.AddWithValue("@amountToAdd", amountToAdd);
-            command.Parameters.AddWithValue("@bookTitle", bookTitle);
-            command.Parameters.AddWithValue("@author", authour);
-            connection.Open();
-            command.ExecuteNonQuery();
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+
+                command.Parameters.AddWithValue("@ISBN", ISBN);
+                command.Parameters.AddWithValue("@amountToAdd", amountToAdd);
+                command.Parameters.AddWithValue("@bookTitle", bookTitle);
+                command.Parameters.AddWithValue("@author", authour);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+
         }
 
-    }
+        /*
+         * when student borrows a book, it should look it up book and allow add it to their account
+         */
+        public void BorrowBook()
+        {
+            //borrow
+        }
 
-    /*
-     * when student borrows a book, it should look it up book and allow add it to their account
-     */
-    public void BorrowBook()
-    {
-        //borrow
-        SqlCommand command = new SqlCommand();
-    }
+        /*
+         * the RemoveBooks function works on a similar basis to the AddNewBook function
+         * the function parses the input for the ISBN, amount, title, and author so that it can match with the correct book
+         * should have error handling when the book is non-existent or the amount drops to 0
+         */
+        public void RemoveBooks(int ISBN)
+        {
+            //remove books from the database
+            string query = "DELETE FROM dbo.Books WHERE ISBN = @ISBN";
 
-    /*
-     * the RemoveBooks function works on a similar basis to the AddNewBook function
-     * the function parses the input for the ISBN, amount, title, and author so that it can match with the correct book
-     * should have error handling when the book is non-existent or the amount drops to 0
-     */
-    public void RemoveBooks(int ISBN, int amountToRemove, string bookTitle, string authour)
-    {
-        //remove books from the database
-        SqlCommand command = new SqlCommand();
-    }
-    /*
-     * book search implemetation
-     * need to be capable of handling the use of ISBN, author, or title
-     */
-    public void SearchBooks()
-    {
-        //search books inside the database
-        SqlCommand command = new SqlCommand();
-    }
-    #endregion INVENTORY_MANAGEMENT_END
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@ISBN", ISBN);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
+        /*
+         * book search implemetation
+         * currently works by checking which value is not NULL
+         * variables should be initialised as NULL initially
+         * then when user searches, the correct value should be parsed into one of the commands
+         */
+        public void SearchBooks(int ISBN, string title, string author)
+        {
+            //search books inside the database
+            string query1 = "SELECT * FROM dbo.Books WHERE ISBN = @ISBN";
+            string query2 = "SELECT * FROM dbo.Books WHERE title = @title";
+            string query3 = "SELECT * FROM dbo.Books WHERE author = @author";
+            if(ISBN!=null)
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlCommand command = new SqlCommand(query1, connection))
+                {
+                    command.Parameters.AddWithValue("@ISBN", ISBN);
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+            if (title != null)
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlCommand command = new SqlCommand(query2, connection))
+                {
+                    command.Parameters.AddWithValue("@title", title);
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+            if (author != null)
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlCommand command = new SqlCommand(query3, connection))
+                {
+                    command.Parameters.AddWithValue("@author", author);
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
 
+        #endregion INVENTORY_MANAGEMENT_END
+
+    }
 }
