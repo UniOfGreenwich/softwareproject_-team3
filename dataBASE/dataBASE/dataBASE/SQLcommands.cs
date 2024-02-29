@@ -13,6 +13,7 @@ using System.IO;
 using System.Reflection;
 using dataBASE.Properties;
 using System.Xml.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace dataBASE
 {
@@ -306,14 +307,29 @@ namespace dataBASE
 
 
     #region INVENTORY_MANAGEMENT
-
     /*
-     * AddNewBook function allows for the addition of a new book
-     * if the book already exists in the database, the only thing that changes is the amountInLibrary value in the table
-     */
+ * AddNewBook function allows for the addition of a new book
+ * if the book already exists in the database, the only thing that changes is the amountInLibrary value in the table
+ */
     public void AddNewBook(int ISBN, int amountToAdd, string bookTitle, string authour)
     {
         //new books
+        SqlCommand command = new SqlCommand();
+
+        string query = @"INSERT INTO dbo.Books (ISBN, amountInLibrary, bookTitle, author) VALUES (@ISBN, @amountToAdd, @bookTitle, @author)";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        using (SqlCommand command = new SqlCommand(query, connection))
+        {
+
+            command.Parameters.AddWithValue("@ISBN", ISBN);
+            command.Parameters.AddWithValue("@amountToAdd", amountToAdd);
+            command.Parameters.AddWithValue("@bookTitle", bookTitle);
+            command.Parameters.AddWithValue("@author", authour);
+            connection.Open();
+            command.ExecuteNonQuery();
+        }
+
     }
 
     /*
@@ -322,6 +338,7 @@ namespace dataBASE
     public void BorrowBook()
     {
         //borrow
+        SqlCommand command = new SqlCommand();
     }
 
     /*
@@ -332,6 +349,7 @@ namespace dataBASE
     public void RemoveBooks(int ISBN, int amountToRemove, string bookTitle, string authour)
     {
         //remove books from the database
+        SqlCommand command = new SqlCommand();
     }
     /*
      * book search implemetation
@@ -340,8 +358,8 @@ namespace dataBASE
     public void SearchBooks()
     {
         //search books inside the database
+        SqlCommand command = new SqlCommand();
     }
-
     #endregion INVENTORY_MANAGEMENT_END
 
 }
