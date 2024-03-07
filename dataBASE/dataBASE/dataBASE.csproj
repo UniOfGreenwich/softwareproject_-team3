@@ -66,6 +66,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AccountsDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
     <Compile Include="SQLcommands.cs" />
     <Compile Include="ManageStudentAccounts.cs">
       <SubType>Form</SubType>
@@ -101,6 +107,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ManageStudentAccounts.resx">
       <DependentUpon>ManageStudentAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentMyInfo.resx">
       <DependentUpon>StudentMyInfo.cs</DependentUpon>
