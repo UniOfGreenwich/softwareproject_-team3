@@ -121,6 +121,9 @@
     <EmbeddedResource Include="ManageStudentAccounts.resx">
       <DependentUpon>ManageStudentAccounts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentMyInfo.resx">
       <DependentUpon>StudentMyInfo.cs</DependentUpon>
     </EmbeddedResource>
