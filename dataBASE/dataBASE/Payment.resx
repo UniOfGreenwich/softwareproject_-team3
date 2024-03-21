@@ -117,4 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="HomeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAclJREFUaEPt
+        mgFNxEAQRU8CEpCABCQgAQfgABwgARxwDsABOAAH4ADmJfPJtmmuLd3fbJO+5Cfd7cz+2d52uJA77Ezj
+        PPQWesnrTXIZ+gr9pLhmblPchbSBY0pj7jXPWeg5pKLvQ4JrzRNDbJNchD5CFPodGjpGzHGPGGLJaYrr
+        kN6H99CpF5t7xBBLDrmCuSGtwmNIhk9MTIBjRazyWAM07suKWqvMyic7FXKUX64l+uPqlK31M7TkrJPL
+        Giq6LLw/rspNSAavoRrdhzVYS+viARpX5VRrrUW/Reu6Gnz8OsO0z6uQC9ZWi666kTmttRZli0b/aSQd
+        HkJajHa55l/jfoumltmwyNLWWovbkOqgpskPs2ytnNUWvkZQg94bahutydFaa0EtQy26A0HlVw3UKmWN
+        1Nx52GVrVVCrqD7VSu1/0OoQZ28rG6FWaua4DbKVjYyyb2Ql9o20hn0jypuruUzOW2owV3OZnGc3SOw+
+        doPE7mM3SOw+doPE7mM3SOw+doPE7mM3SOw+doPE7mM3SOw+doPE7mM3SOw+doPE7mM3SOw+doPE7mM3
+        SOw+doPE7mM3SOw+Cmxdo5T/KG5V/CRkZ8fP4fALCkyp7jfanBUAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>
