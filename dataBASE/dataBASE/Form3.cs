@@ -92,11 +92,17 @@ namespace dataBASE
 
         }
 
+        // Event Handler for the "Pay Fees" button click event
         private void button1_Click(object sender, EventArgs e)
         {
-
+            // Instantiate the Payment form
+            Payment paymentForm = new Payment();
+            // Bring the Payment form to the front
+            
+            // Show the Payment form
+            paymentForm.Show();
+            paymentForm.BringToFront();
         }
-
         private void button5_Click(object sender, EventArgs e)
         {
 
@@ -115,6 +121,11 @@ namespace dataBASE
         private void button4_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
