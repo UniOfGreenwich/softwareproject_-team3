@@ -1,6 +1,6 @@
 # Phase 3 - Implementation
 
-## Table 
+## Task Allocation 
 
 | Name | Role |
 | ----------- | ----------- |
@@ -18,13 +18,17 @@ The final phase for the project involves the implementation and testing of the p
 
 The implementation for the project involved splitting it up into smaller elements to make it more managable.
 
-## Testing - working elements
+## Testing
+
+Testing of individual elements had to be done to make sure that they work as intended.
+
+### Working elements
 
 - The login page worked as intended
 - Editing the account information modifies the database as intended
 - The logout button closed the account window
 
-## Testing - non functioning elements
+### Non functioning elements
 
 - Some of the buttons in the home page did not function properly
 - The database for the books as well as some of the functionality to borrow did not function well
