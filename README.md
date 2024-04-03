@@ -16,7 +16,15 @@ The final phase for the project involves the implementation and testing of the p
 
 ## Implementation
 
-The implementation for the project involved splitting it up into smaller elements to make it more managable.
+The implementation for the project involved splitting it up into smaller elements to make it more managable. The use of the functions has been explained below.
+
+### SQLcommands.cs
+
+This file was created as an interface between the other functions and the databases. It included multiple functions inside, with each completing a different function on the database when called.
+
+### login.cs
+
+Used to add functionality into the login screen. Checks the input fields for entered data and checks them against the database of users.
 
 ## Testing
 
