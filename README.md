@@ -26,6 +26,18 @@ This file was created as an interface between the other functions and the databa
 
 Used to add functionality into the login screen. Checks the input fields for entered data and checks them against the database of users.
 
+### StaffHome.cs and StudentHome.cs
+
+Adding functionality to the pages seen after logging in. StaffHome.cs allows for functionality for the screen if login in as a user that has been marked as a staff member, and the StudentHome.cs adds different functionality if logged into an account marked as a student.
+
+### StudentMyInfo.cs
+
+When on the update details page, allows users logged in with a student account to modify their own details.
+
+### ManageStudentAccounts.cs
+
+This code gives staff members the capability to look up a student account's details and modify them.
+
 ## Testing
 
 Testing of individual elements had to be done to make sure that they work as intended.
