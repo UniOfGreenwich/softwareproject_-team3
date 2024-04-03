@@ -1,4 +1,4 @@
-# Phase 3 - Implementation
+# Phase 3 - Implementation and Testing
 
 ## Task Allocation 
 
