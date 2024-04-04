@@ -4,11 +4,11 @@
 
 | Name | Role |
 | ----------- | ----------- |
-| Denis | User Database/Access comands for user database/login screen |
+| Denis | User table in database/Access comands for user database/login screen/home screen after login/manage student accounts |
 | Maisha | check history |
 | Reshmaa | Borrowing Books |
 | Sanjita | Fees Payment |
-| Wojciech | Books Database/access commands for books database/readme |
+| Wojciech | Books table in database/access commands for books database/readme |
 
 ## Introduction
 
@@ -32,6 +32,8 @@ Used to add functionality into the login screen. Checks the input fields for ent
 ### StaffHome.cs and StudentHome.cs
 
 Adding functionality to the pages seen after logging in. StaffHome.cs allows for functionality for the screen if login in as a user that has been marked as a staff member, and the StudentHome.cs adds different functionality if logged into an account marked as a student.
+
+Student page gives the option to view their information, borrow a book, pay any overdue fees, check their borrowing history, and for logging out. Staff page gives the options to view their account information, confirm the borrowing of a book, manage a student's account, manage the books in inventory, and logging out.
 
 ![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332550/208e5f78-5e50-49e1-b99d-24946dcb0e8b)
 
