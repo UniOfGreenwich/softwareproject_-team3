@@ -79,9 +79,9 @@ namespace dataBASE
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.SendToBack();
             Checkhistory checkhistory = new Checkhistory();
             checkhistory.Show();
-
 
         }
 

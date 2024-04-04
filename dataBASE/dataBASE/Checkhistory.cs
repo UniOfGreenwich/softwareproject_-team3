@@ -12,9 +12,13 @@ namespace dataBASE
 {
     public partial class Checkhistory : Form
     {
+        public static Checkhistory Instance;
+
         public Checkhistory()
         {
             InitializeComponent();
+
+            Instance = this;
         }
         private void Checkhistory_load(object sender, EventArgs e)
         {
