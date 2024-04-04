@@ -6,7 +6,7 @@
 | ----------- | ----------- |
 | Denis | User Database/Access comands for user database/login screen |
 | Maisha | check history |
-| Reshma | Borrowing Books |
+| Reshmaa | Borrowing Books |
 | Sanjita | Fees Payment |
 | Wojciech | Books Database/access commands for books database/readme |
 
