@@ -67,7 +67,6 @@
             this.label1.Size = new System.Drawing.Size(126, 30);
             this.label1.TabIndex = 1;
             this.label1.Text = "Book Name:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // search
             // 
@@ -87,7 +86,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(351, 31);
             this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button3
             // 
@@ -120,7 +118,6 @@
             this.label2.Size = new System.Drawing.Size(162, 30);
             this.label2.TabIndex = 42;
             this.label2.Text = "Borrowing Date:\r\n";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox2
             // 
@@ -159,7 +156,6 @@
             this.label4.Size = new System.Drawing.Size(189, 30);
             this.label4.TabIndex = 46;
             this.label4.Text = "Show Book Details:";
-            this.label4.Click += new System.EventHandler(this.label4_Click_1);
             // 
             // txtResult
             // 
@@ -170,7 +166,6 @@
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(0, 30);
             this.txtResult.TabIndex = 47;
-            this.txtResult.Click += new System.EventHandler(this.label5_Click_1);
             // 
             // panel1
             // 
@@ -192,7 +187,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1067, 631);
             this.panel1.TabIndex = 6;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button1
             // 
@@ -213,7 +207,6 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 30);
             this.label5.TabIndex = 48;
-            this.label5.Click += new System.EventHandler(this.label5_Click_2);
             // 
             // BorrowingBook
             // 
