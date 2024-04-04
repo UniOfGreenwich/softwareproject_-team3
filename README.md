@@ -4,11 +4,11 @@
 
 | Name | Role |
 | ----------- | ----------- |
-| Denis | User Database/Access comands for user database/login screen |
+| Denis | User table in database/Access comands for user database/login screen/home screen after login/ manage student accounts |
 | Maisha | check history |
 | Reshma | Borrowing Books |
 | Sanjita | Fees Payment |
-| Wojciech | Books Database/access commands for books database/readme |
+| Wojciech | Books table in database/access commands for books database/readme |
 
 ## Introduction
 
