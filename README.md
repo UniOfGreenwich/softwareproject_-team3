@@ -1,27 +1,30 @@
-# Phase 3 - Implementation and Testing
-
+# Phase 3  -   IMPLEMENTATION AND TESTING 
+---------------------------------------------------------
 ## Task Allocation 
 
-| Name | Role |
-| ----------- | ----------- |
-| Denis | User table in database/Access comands for user database/login screen/home screen after login/manage student accounts |
-| Maisha | check history |
-| Reshmaa | Borrowing Books |
-| Sanjita | Fees Payment |
-| Wojciech | Books table in database/access commands for books database/readme |
+| Name | Assignment |
+|-----|-----| 
+|[Denis](https://github.com/wheissmd) | User table in Database // Access comands for user database // Login Screen // Home Screeen After Login // Manage Student Accounts
+|[Wojciech](https://github.com/flock-of-jays)| Books table in Database // Access comands for books database // Readme
+|[Reshmaa](http://github.com/reshmaa2005)| Borrowing Books // Table // Updated Readme Photos
+|[Maisha](https://github.com/maishkhan)| Check History
+|[Sanjita](http://github.com/SanjiGre99)| Fees Payment  
+ 
+
 ## Introduction
 
 The final phase for the project involves the implementation and testing of the product. The overall design of the code was done based on the requirements of the previous phases, as well as the final product brief. Individual elements of the project were then split up to be completed by indivudual team members.
+
 
 ## Implementation
 
 The implementation for the project involved splitting it up into smaller elements to make it more managable. The use of the functions has been explained below.
 
-### SQLcommands.cs
+ ### SQLcommands.cs
 
 This file was created as an interface between the other functions and the databases. It included multiple functions inside, with each completing a different function on the database when called.
 
-### login.cs
+ ### Login.cs
 
 Used to add functionality into the login screen. Checks the input fields for entered data and checks them against the database of users.
 
@@ -36,7 +39,7 @@ Student page gives the option to view their information, borrow a book, pay any 
 
 ![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332550/208e5f78-5e50-49e1-b99d-24946dcb0e8b)
 
-### StudentMyInfo.cs
+ ### StudentMyInfo.cs
 
 When on the update details page, allows users logged in with a student account to modify their own details.
 ![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332550/bd5c3ec0-ddb3-47a2-8f59-efc6aeba12a2)
@@ -45,7 +48,7 @@ When on the update details page, allows users logged in with a student account t
 
 This code gives staff members the capability to look up a student account's details and modify them.
 
-### Checkhistory.cs
+### Check History.cs
 
 The application likely deals with managing a history of books, providing a user interface to view, update, and delete
 ![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332550/b0de34d7-5b40-4c37-ad09-9c8877e44854)
