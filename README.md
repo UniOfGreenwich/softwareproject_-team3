@@ -40,7 +40,7 @@ This code gives staff members the capability to look up a student account's deta
 
 ### Checkhistory.cs
 
-### Borrowing Books
+
 
 ## Testing
 
