@@ -70,6 +70,11 @@ namespace dataBASE
         {
 
         }
+
+        private void HomeButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
 

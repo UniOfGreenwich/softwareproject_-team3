@@ -236,5 +236,10 @@
   <ItemGroup>
     <None Include="Resources\bkgim.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Accounts.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
