@@ -66,6 +66,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AccountsDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Checkhistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checkhistory.Designer.cs">
+      <DependentUpon>Checkhistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="SQLcommands.cs" />
     <Compile Include="ManageStudentAccounts.cs">
       <SubType>Form</SubType>
@@ -79,40 +85,43 @@
     <Compile Include="StudentMyInfo.Designer.cs">
       <DependentUpon>StudentMyInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentHome.cs">
+    <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentHome.Designer.cs">
-      <DependentUpon>StudentHome.cs</DependentUpon>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="StaffHome.cs">
+    <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StaffHome.Designer.cs">
-      <DependentUpon>StaffHome.cs</DependentUpon>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Checkhistory.resx">
+      <DependentUpon>Checkhistory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageStudentAccounts.resx">
       <DependentUpon>ManageStudentAccounts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentMyInfo.resx">
       <DependentUpon>StudentMyInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentHome.resx">
-      <DependentUpon>StudentHome.cs</DependentUpon>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StaffHome.resx">
-      <DependentUpon>StaffHome.cs</DependentUpon>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -22,6 +22,8 @@ namespace dataBASE
 
         DataTable dt = new DataTable();
 
+        //SqlConnection conn = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Accounts;Integrated Security=True;Connect Timeout=30;Encrypt=False");
+
         public static StudentMyInfo Instance;
 
         public string Name { get; set; }
@@ -48,7 +50,6 @@ namespace dataBASE
     }
 
 
-        // Fills the info about currently logged in user
         public void FillInfo()
         {
 
@@ -88,7 +89,6 @@ namespace dataBASE
 
         private bool isButtonClicked = true;
 
-        // Allows to Edit the account and save the editions. Checks if the fields are empty, doesn't update empty fields
         private void button3_Click(object sender, EventArgs e)
         {
 
@@ -154,7 +154,6 @@ namespace dataBASE
             }
         }
 
-        // Home Button
         private void button1_Click(object sender, EventArgs e)
         {
             Close();

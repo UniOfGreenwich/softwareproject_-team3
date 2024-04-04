@@ -47,10 +47,9 @@ namespace dataBASE
             {
 
                 DataTable dt = sqlCommands.StudentInfoTable(Name);
-                // Returns Student Info as a Data Table
 
 
-                // Checks the Role, if student dispays the info
+
                 bool Role = (bool)dt.Rows[0]["Role"];
                 if (!Role)
                 {
@@ -102,7 +101,7 @@ namespace dataBASE
 
         }
 
-        // Home Button
+
         private void button3_Click_1(object sender, EventArgs e)
         {
             Close();
@@ -120,7 +119,6 @@ namespace dataBASE
             button5.Enabled = false;
         }
 
-        // Updates Student Info
         private void button5_Click(object sender, EventArgs e)
         {
 
@@ -168,7 +166,6 @@ namespace dataBASE
 
         }
 
-        // Generates random Password
         private void button4_Click(object sender, EventArgs e)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -185,8 +182,6 @@ namespace dataBASE
         private bool isSecondWordEntered = false;
         private string generatedText = "";
 
-
-        // Generates StudentID when Name and Surname are entered
         private void textBox9_TextChanged(object sender, EventArgs e)
         {
             string inputText = textBox9.Text.Trim();
@@ -218,7 +213,7 @@ namespace dataBASE
         }
 
 
-        // Adds new user
+
         private void button2_Click(object sender, EventArgs e)
         {
             SQLcommands sqlCommands = new SQLcommands();
@@ -243,7 +238,6 @@ namespace dataBASE
             }
         }
 
-        // Deletes the user with confirmation pop up
         private void button6_Click(object sender, EventArgs e)
         {
             DialogResult dialogResult = MessageBox.Show("Do you want to delete the user?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
