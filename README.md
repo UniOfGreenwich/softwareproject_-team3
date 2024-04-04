@@ -26,13 +26,19 @@ This file was created as an interface between the other functions and the databa
 
 Used to add functionality into the login screen. Checks the input fields for entered data and checks them against the database of users.
 
+![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332550/55a37a49-b848-4953-ab61-6c6d0064e48c)
+
+
 ### StaffHome.cs and StudentHome.cs
 
 Adding functionality to the pages seen after logging in. StaffHome.cs allows for functionality for the screen if login in as a user that has been marked as a staff member, and the StudentHome.cs adds different functionality if logged into an account marked as a student.
 
+![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332550/208e5f78-5e50-49e1-b99d-24946dcb0e8b)
+
 ### StudentMyInfo.cs
 
 When on the update details page, allows users logged in with a student account to modify their own details.
+![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332550/bd5c3ec0-ddb3-47a2-8f59-efc6aeba12a2)
 
 ### ManageStudentAccounts.cs
 
@@ -41,6 +47,7 @@ This code gives staff members the capability to look up a student account's deta
 ### Checkhistory.cs
 
 The application likely deals with managing a history of books, providing a user interface to view, update, and delete
+![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332550/b0de34d7-5b40-4c37-ad09-9c8877e44854)
 
 1. Namespace and Class Declaration
 - namespace dataBASE declares a namespace called dataBASE. Namespaces are used to organize code and prevent naming conflicts.
