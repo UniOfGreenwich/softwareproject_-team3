@@ -71,17 +71,17 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(57, 48);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1787, 923);
+            this.panel1.Size = new System.Drawing.Size(1160, 636);
             this.panel1.TabIndex = 3;
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(428, 270);
+            this.button5.Location = new System.Drawing.Point(191, 271);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(290, 94);
+            this.button5.Size = new System.Drawing.Size(131, 83);
             this.button5.TabIndex = 6;
             this.button5.Text = "Confirm Borrowing Book";
             this.button5.UseVisualStyleBackColor = true;
@@ -89,9 +89,9 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(1316, 270);
+            this.button4.Location = new System.Drawing.Point(714, 271);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(290, 94);
+            this.button4.Size = new System.Drawing.Size(131, 83);
             this.button4.TabIndex = 5;
             this.button4.Text = "Log Out";
             this.button4.UseVisualStyleBackColor = true;
@@ -100,9 +100,9 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(132, 270);
+            this.button3.Location = new System.Drawing.Point(11, 271);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(290, 94);
+            this.button3.Size = new System.Drawing.Size(131, 83);
             this.button3.TabIndex = 4;
             this.button3.Text = "View Your Info";
             this.button3.UseVisualStyleBackColor = true;
@@ -111,9 +111,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(1020, 270);
+            this.button2.Location = new System.Drawing.Point(558, 271);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(290, 94);
+            this.button2.Size = new System.Drawing.Size(131, 83);
             this.button2.TabIndex = 3;
             this.button2.Text = "Manage Books Data Base";
             this.button2.UseVisualStyleBackColor = true;
@@ -122,9 +122,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(724, 270);
+            this.button1.Location = new System.Drawing.Point(389, 271);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(290, 94);
+            this.button1.Size = new System.Drawing.Size(131, 83);
             this.button1.TabIndex = 2;
             this.button1.Text = "Manage Students Accounts";
             this.button1.UseVisualStyleBackColor = true;
@@ -134,14 +134,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.ClientSize = new System.Drawing.Size(1200, 675);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form2";
             this.TopMost = true;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
