@@ -48,6 +48,12 @@ When on the update details page, allows users logged in with a student account t
 
 This code gives staff members the capability to look up a student account's details and modify them.
 
+### Borrowing Book 
+
+This system facilitates users in borrowing books by allowing them to input the book's title into the designated field and subsequently clicking the "Search" button. Upon connection to the book database, the system displays the relevant book information, including its title and image. This feature ensures ease of identification for both students and staff. Upon selection, users can click the "Add" button, which prompts automatic display of the borrowing date and pre-set returning date. Alternatively, users have the option to erase the searched book by clicking the “Delete” button, enabling them to search for alternative titles. Regrettably, certain functions within the system are currently non-operational.  
+![image](https://github.com/TeachingMaterial/softwareproject_-team3/assets/146332550/5ded0203-febb-4681-bed7-ccaa90e04859)
+
+
 ### Check History.cs
 
 The application likely deals with managing a history of books, providing a user interface to view, update, and delete
