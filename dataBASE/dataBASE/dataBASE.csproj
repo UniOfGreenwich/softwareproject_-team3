@@ -72,6 +72,12 @@
     <Compile Include="Checkhistory.Designer.cs">
       <DependentUpon>Checkhistory.cs</DependentUpon>
     </Compile>
+    <Compile Include="BorrowingBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowingBook.Designer.cs">
+      <DependentUpon>BorrowingBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="SQLcommands.cs" />
     <Compile Include="ManageStudentAccounts.cs">
       <SubType>Form</SubType>
@@ -108,6 +114,10 @@
     <EmbeddedResource Include="Checkhistory.resx">
       <DependentUpon>Checkhistory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BorrowingBook.resx">
+      <DependentUpon>BorrowingBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageStudentAccounts.resx">
       <DependentUpon>ManageStudentAccounts.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +132,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
