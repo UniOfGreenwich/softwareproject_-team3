@@ -6,7 +6,7 @@
 |-----|-----| 
 |[Denis](https://github.com/wheissmd) | User table in Database // Access comands for user database // Login Screen // Home Screeen After Login // Manage Student Accounts
 |[Wojciech](https://github.com/flock-of-jays)| Books table in Database // Access comands for books database // Readme
-|[Reshmaa](http://github.com/reshmaa2005)| Borrowing Books // Table // Updated Readme Photos
+|[Reshmaa](http://github.com/reshmaa2005)| Borrowing Books // Table // Updated Readme Photos // Reference 
 |[Maisha](https://github.com/maishkhan)| Check History
 |[Sanjita](http://github.com/SanjiGre99)| Fees Payment  
  
@@ -98,3 +98,9 @@ Testing of individual elements had to be done to make sure that they work as int
 
 - Some of the buttons in the home page did not function properly
 - The database for the books as well as some of the functionality to borrow did not function well
+
+### References
+1. Adding the button https://www.youtube.com/watch?v=bsbcSTdvktU 
+2. Creating a database https://teachingmaterial.github.io/ELEE1149_Exercises/Lab_12/Lab_12.html 
+3. Basic Git commands that helps to push and commit https://teachingmaterial.github.io/ELEE1149_Exercises/BashAliases/BashAliases.html 
+   
