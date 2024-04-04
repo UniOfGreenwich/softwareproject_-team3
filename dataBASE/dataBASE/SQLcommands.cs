@@ -29,6 +29,9 @@ namespace dataBASE
 
         String connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + path + ";Integrated Security=True;Connect Timeout=30";
 
+        public SqlConnection Connection { get; internal set; }
+        public string CommandText { get; internal set; }
+
         /// <summary>
         /// Returns SQLReader for the custom query
         /// </summary>
