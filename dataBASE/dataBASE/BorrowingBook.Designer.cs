@@ -149,7 +149,7 @@
             this.textBox3.Size = new System.Drawing.Size(158, 31);
             this.textBox3.TabIndex = 45;
             // 
-            // label4
+            // label5
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.Control;
