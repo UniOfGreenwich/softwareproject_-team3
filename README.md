@@ -38,6 +38,9 @@ When on the update details page, allows users logged in with a student account t
 
 This code gives staff members the capability to look up a student account's details and modify them.
 
+### Checkhistory.cs
+
+
 ## Testing
 
 Testing of individual elements had to be done to make sure that they work as intended.
